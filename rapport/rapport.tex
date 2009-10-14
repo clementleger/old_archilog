@@ -1,0 +1,120 @@
+\documentclass[a4paper]{article} 
+\usepackage[dvipsnames]{xcolor}
+\usepackage{listings}
+\usepackage[french]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{fullpage}
+\usepackage{pstricks}
+\usepackage{graphicx}
+
+\begin{document}
+Vincent Parrod
+\hfill
+\today{}
+
+Romain Jamet
+
+Clément Léger
+\begin{center}
+    \huge{Projet d'architecture logicielle}
+    \rule{0.5\textwidth}{0.4pt}
+\end{center}
+\section{Présentation}
+Nous avons choisi de programmer le jeu en JAVA.  La compilation des sources se fait via la commande \verb+make+. Le lancement se fera via la commande \verb+make launch+. Un jar est à disposition dans l'archive du projet. 
+\section{But du jeu}
+Le principe du jeu est d'aller parler (touche P) avec des personnages (fixes ou mobiles) afin de récupérer des objets et/ou prendre des informations. Ces objets peuvent aussi être ramassés (touche R) directement sur le sol. Les objets reçus sont stockés dans un sac à dos. Ils permettent d'accéder à certains endroits (\textit{par exemple, un personnage peut nous dire d'aller ramasser une clé à côté du potager pour pouvoir rentrer dans la maison}). Le jeu se termine lorsque l'objet gagnant est obtenu. 
+\section{Structure}
+Nous avons utilisé différents patterns pour la réalisation du programme.
+\begin{itemize}
+\item Monteur  
+\item Façade 
+\item Singleton
+
+\item Sujet/Observateur
+\item Stratégie
+\end{itemize}
+
+\section{Patterns}
+    %PATTERN MONTEUR
+    \subsection{Monteur}
+        Le monteur est utilisé pour créer les différentes fenêtres (JPanel).
+    
+    %PATTERN FAÇADE
+    \subsection{Façade} 
+	La Facade est utilisée pour initialiser le Monde, la Map, et le monteur.
+    \begin{figure}[!h] 					% !h pour la placer ici : voir http://www.tuteurs.ens.fr/logiciels/latex/figures.html
+        \centering						%centrer l'image
+        \includegraphics[width=0.75\textwidth]{./eps/facade}	%0,75 fois la largeur de la page
+        \caption{Diagramme de classe de MondeFaçade}	%commentaire
+    \end{figure}
+    %\vspace{1cm}
+    %PATTERN SINGLETON
+    \subsection{Singleton}
+    La classe StockImage permet de garder les images en cache (elles sont stockées dans une HashMap lors de leur première lecture). Cette classe est donc instanciée une seule fois dans le programme.
+    \begin{figure}[!h] 
+    \centering
+	\includegraphics[width=0.3\textwidth]{./eps/singleton}	
+     \caption{Classe StockImage}	
+    \end{figure}
+%PATTERN SUJET/OBSERVATEUR
+\subsection{Sujet/Observateur}
+    Plusieurs \emph{Sujets/Observateurs} ont été mis en place. Par exemple, le monde et le sac à dos sont observés par la vue.
+    \begin{figure}[!h] 
+    \centering
+	\includegraphics[width=0.75\textwidth]{./eps/sujetobs}	
+     \caption{Pattern \emph{Sujet/Observateur}}	
+    \end{figure}
+    %PATTERN STRATEGIE
+    \subsection{Stratégie}
+        Le pattern Stratégie est utilisé pour séparer le code de peinture du code du modèle. Il est également utilisé pour l'intéraction entre les personnages intéractifs et le personnage principal.
+        \begin{figure}[!h] 					% !h pour la placer ici : voir http://www.tuteurs.ens.fr/logiciels/latex/figures.html
+            \centering						%centrer l'image
+            \includegraphics[width=0.5\textwidth]{./eps/strategie}	%0,75 fois la largeur de la page
+            \caption{Diagramme de classe de MondeFaçade}	%commentaire
+        \end{figure}
+
+\section{Structure globale}
+Voici l'interaction principale entre les différentes classes (elles ne sont pas toutes représentées).
+\begin{figure}[!h] 					% !h pour la placer ici : voir http://www.tuteurs.ens.fr/logiciels/latex/figures.html
+        \centering						%centrer l'image
+        \includegraphics[width=0.75\textwidth]{./eps/Diagramme1}	%0,75 fois la largeur de la page
+        \caption{Diagramme de classe}	%commentaire
+    \end{figure}   
+\section{Conclusion}
+Ce projet nous aura permis d'apprendre à modéliser un programme. En effet, les design patterns permettent de réaliser beaucoup plus simplement des opérations "génériques". Le fait de bien structurer le programme permet également de mieux se répartir les tâches. La partie interface graphique nous a permis de découvrir \verb+Swing+, et plus précisement, \verb+Java2D+. L'utilisation de \verb+SVN+ nous a grandement facilité la mise en commun de nos travaux (290 "commits" sur le serveur !).
+\newpage
+\section{Annexes}
+Voici le scénario minimal pour terminer le jeu :
+\newline
+\begin{itemize}
+\item Récupérer la pioche devant la tente.
+\item Rentrer dans la tente pour récupérer le cristal bleu.
+\item Sortir de la tente.
+\item Aller parler au fermier près du jardin pour récupérer la lanterne.
+\item Aller parler à Jean-Pierre Treiber près du gros arbre pour récupérer le cristal jaune.
+\item Aller dans la mine en haut à droite.
+\item Parler au mineur pour apprendre qu'il y a une armure et un cristal vert.
+\item Traverser le pont dans la mine pour aller chercher l'armure en bas à gauche puis le cristal vert en bas à droite.
+\item Sortir de la mine.
+\item Traverser le pont à droite pour aller sur la place du marché.
+\item Parler à Ritoune la débrouille pour récupérer la clé de la maison.
+\item Entrer dans la maison, entrer dans la cave.
+\item Récupérer le cristal.
+\item Sortir de la cave, sortir de la maison.
+\item Aller parler au vendeur de tunique au milieu du marché.
+\item Retourner à la plaine verte.
+\item Descendre vers le château en prenant le pont en bas. 
+\item Parler à Gorgoth le Barbare près de la potence pour récupérer le casque.
+\item Descendre en bas pour rentrer dans le chateau.
+\item Parler au roi pour récupérer le cristal.
+\item Retourner à la plaine verte.
+\item Rentrer dans le caveau du roi près des ruines.
+\item Récupérer la tronçonneuse.
+\item C'est tout pour le moment !
+\end{itemize}
+
+\end{document}
+
+
+
+

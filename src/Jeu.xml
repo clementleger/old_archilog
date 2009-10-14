@@ -1,0 +1,1469 @@
+<jeu mapdebut="plaineverte" messagefin="C'est gagné !!" objetgagnant="Tronconneuse magique" musiquefin="dora" messagedebut="Le but est de trouver la tronçonneuse magique ! Pour cela, il te faudra récupérer 5 cristaux. Alors regarde bien autour de toi et va parler aux personnages !" logofin="dora.png">
+    <personnage nomimage="chap" nom="Chef"/> 
+       
+    <map nom="caveau" description="Caveau royal" taillecase="32" casedepartx="7" casedeparty="3" sensdepart="bas">
+    
+		<!-- PLAINE VERTE-->
+		<objet type="teleportation" mapsuivante="plaineverte" casex="6" casey="1" casearriveex="28" casearriveey="15" sensarrivee="bas"/>
+		<objet type="teleportation" mapsuivante="plaineverte" casex="7" casey="1" casearriveex="28" casearriveey="15" sensarrivee="bas"/>
+		<objet type="teleportation" mapsuivante="plaineverte" casex="8" casey="1" casearriveex="28" casearriveey="15" sensarrivee="bas"/>
+		
+		<objet type="ramassable" x="238" y="295" image="tronconneuse" nom="Tronconneuse magique"/>
+		
+		<personnage type="ambulant" nomimage="mort" nom="La mort" vitesse="3" posx="119" posy="140" tox="476" toy="140" message="Je surveille ce caveau depuis des années et tu es le premier à y entrer. Je suppose que tu le mérites, prends donc ma tronçonneuse." />
+		
+      <objet type="bloquant" casex="22" casey="4"/>
+	  <objet type="bloquant" casex="21" casey="3"/>
+	  <objet type="bloquant" casex="20" casey="3"/>
+	  <objet type="bloquant" casex="19" casey="3"/>
+	  <objet type="bloquant" casex="19" casey="3"/>
+	  <objet type="bloquant" casex="17" casey="3"/>
+	  <objet type="bloquant" casex="18" casey="3"/>
+	  <objet type="bloquant" casex="16" casey="4"/>
+	  <objet type="bloquant" casex="15" casey="3"/>
+	  <objet type="bloquant" casex="14" casey="3"/>
+	  <objet type="bloquant" casex="13" casey="3"/>
+	  <objet type="bloquant" casex="12" casey="4"/>
+	  <objet type="bloquant" casex="11" casey="3"/>
+	  <objet type="bloquant" casex="10" casey="3"/>
+	  <objet type="bloquant" casex="9" casey="3"/>
+	  <objet type="bloquant" casex="9" casey="2"/>
+	  <objet type="bloquant" casex="9" casey="1"/>
+	  <objet type="bloquant" casex="9" casey="0"/>
+	  <objet type="bloquant" casex="5" casey="0"/>
+	  <objet type="bloquant" casex="5" casey="2"/>
+	  <objet type="bloquant" casex="5" casey="1"/>
+	  <objet type="bloquant" casex="5" casey="3"/>
+	  <objet type="bloquant" casex="4" casey="3"/>
+	  <objet type="bloquant" casex="3" casey="3"/>
+	  <objet type="bloquant" casex="2" casey="4"/>
+	  <objet type="bloquant" casex="1" casey="3"/>
+	  <objet type="bloquant" casex="0" casey="4"/>
+	  <objet type="bloquant" casex="0" casey="5"/>
+	  <objet type="bloquant" casex="0" casey="6"/>
+	  <objet type="bloquant" casex="0" casey="7"/>
+	  <objet type="bloquant" casex="0" casey="8"/>
+	  <objet type="bloquant" casex="0" casey="9"/>
+	  <objet type="bloquant" casex="1" casey="9"/>
+	  <objet type="bloquant" casex="5" casey="9"/>
+	  <objet type="bloquant" casex="5" casey="10"/>
+	  <objet type="bloquant" casex="9" casey="10"/>
+	  <objet type="bloquant" casex="9" casey="9"/>
+	  <objet type="bloquant" casex="13" casey="9"/>
+	  <objet type="bloquant" casex="17" casey="9"/>
+	  <objet type="bloquant" casex="21" casey="9"/>
+	  <objet type="bloquant" casex="25" casey="9"/>
+	  <objet type="bloquant" casex="25" casey="10"/>
+	  <objet type="bloquant" casex="24" casey="10"/>
+	  <objet type="bloquant" casex="23" casey="10"/>
+	  <objet type="bloquant" casex="22" casey="10"/>
+	  <objet type="bloquant" casex="20" casey="10"/>
+	  <objet type="bloquant" casex="19" casey="10"/>
+	  <objet type="bloquant" casex="18" casey="10"/>
+	  <objet type="bloquant" casex="16" casey="10"/>
+	  <objet type="bloquant" casex="15" casey="10"/>
+	  <objet type="bloquant" casex="14" casey="10"/>
+	  <objet type="bloquant" casex="14" casey="11"/>
+	  <objet type="bloquant" casex="14" casey="12"/>
+	  <objet type="bloquant" casex="14" casey="13"/>
+	  <objet type="bloquant" casex="14" casey="14"/>
+	  <objet type="bloquant" casex="14" casey="15"/>
+	  <objet type="bloquant" casex="14" casey="16"/>
+	  <objet type="bloquant" casex="13" casey="16"/>
+	  <objet type="bloquant" casex="11" casey="16"/>
+	  <objet type="bloquant" casex="12" casey="16"/>
+	  <objet type="bloquant" casex="10" casey="16"/>
+	  <objet type="bloquant" casex="9" casey="16"/>
+	  <objet type="bloquant" casex="7" casey="16"/>
+	  <objet type="bloquant" casex="8" casey="16"/>
+	  <objet type="bloquant" casex="6" casey="16"/>
+	  <objet type="bloquant" casex="5" casey="16"/>
+	  <objet type="bloquant" casex="4" casey="16"/>
+	  <objet type="bloquant" casex="2" casey="16"/>
+	  <objet type="bloquant" casex="3" casey="16"/>
+	  <objet type="bloquant" casex="1" casey="16"/>
+	  <objet type="bloquant" casex="0" casey="16"/>
+	  <objet type="bloquant" casex="0" casey="15"/>
+	  <objet type="bloquant" casex="0" casey="14"/>
+	  <objet type="bloquant" casex="0" casey="13"/>
+	  <objet type="bloquant" casex="0" casey="12"/>
+	  <objet type="bloquant" casex="0" casey="11"/>
+	  <objet type="bloquant" casex="0" casey="10"/>
+	  <objet type="bloquant" casex="2" casey="14"/>
+	  <objet type="bloquant" casex="12" casey="14"/>
+	  <objet type="bloquant" casex="6" casey="14"/>
+	  <objet type="bloquant" casex="7" casey="14"/>
+	  <objet type="bloquant" casex="8" casey="14"/>
+	  <objet type="bloquant" casex="8" casey="13"/>
+	  <objet type="bloquant" casex="7" casey="13"/>
+	  <objet type="bloquant" casex="6" casey="13"/>
+	  <objet type="bloquant" casex="6" casey="12"/>
+	  <objet type="bloquant" casex="7" casey="12"/>
+	  <objet type="bloquant" casex="8" casey="12"/>
+	  <objet type="bloquant" casex="18" casey="7"/>
+	  <objet type="bloquant" casex="19" casey="7"/>
+	  <objet type="bloquant" casex="20" casey="7"/>
+	  <objet type="bloquant" casex="17" casey="7"/>
+	  <objet type="bloquant" casex="17" casey="6"/>
+	  <objet type="bloquant" casex="18" casey="6"/>
+	  <objet type="bloquant" casex="19" casey="6"/>
+	  <objet type="bloquant" casex="20" casey="6"/>
+	  <objet type="bloquant" casex="23" casey="3"/>
+	  <objet type="bloquant" casex="24" casey="3"/>
+	  <objet type="bloquant" casex="25" casey="3"/>
+	  <objet type="bloquant" casex="26" casey="3"/>
+	  <objet type="bloquant" casex="26" casey="4"/>
+	  <objet type="bloquant" casex="26" casey="5"/>
+	  <objet type="bloquant" casex="26" casey="6"/>
+	  <objet type="bloquant" casex="26" casey="7"/>
+	  <objet type="bloquant" casex="26" casey="8"/>
+	</map>
+    
+    <map nom="mine" description="Mine de diamant" taillecase="32" casedepartx="6" casedeparty="3" sensdepart="bas">
+		
+		<!-- PLAINE VERTE-->
+		<objet type="teleportation" mapsuivante="plaineverte" casex="6" casey="2" casearriveex="33" casearriveey="3" sensarrivee="bas"/>
+		<personnage type="ambulant" nomimage="travailleur" nom="Mineur" vitesse="4" posx="325" posy="292" tox="983" toy="292" message="Je surveille la mine. Elle a été abandonnée à cause de la crise économique. Il doit encore rester un cristal vert au fond de la mine. Un guerrier a aussi voulu descendre dans le puits de lave et a laissé son armure... Il n'est jamais revenu." />
+		
+		<objet type="ramassable" x="998" y="943" image="crystalvert" nom="Cristal vert"/>
+		<objet type="ramassable" x="325" y="845" image="armure" nom="Armure"/>
+		
+		<personnage type="ambulant" nomimage="chauvesouris" nom="chauvesouris1" vitesse="7" posx="498" posy="100" tox="693" toy="100" message="" />
+		<personnage type="ambulant" nomimage="chauvesouris" nom="chauvesouris2" vitesse="7" posx="912" posy="1013" tox="1122" toy="1013" message="" />
+		
+		  <objet type="bloquant" casex="5" casey="3"/>
+		  <objet type="bloquant" casex="5" casey="4"/>
+		  <objet type="bloquant" casex="5" casey="5"/>
+		  <objet type="bloquant" casex="5" casey="2"/>
+		  <objet type="bloquant" casex="5" casey="1"/>
+		  <objet type="bloquant" casex="5" casey="0"/>
+		  <objet type="bloquant" casex="6" casey="0"/>
+		  <objet type="bloquant" casex="7" casey="0"/>
+		  <objet type="bloquant" casex="7" casey="1"/>
+		  <objet type="bloquant" casex="7" casey="2"/>
+		  <objet type="bloquant" casex="8" casey="2"/>
+		  <objet type="bloquant" casex="8" casey="3"/>
+		  <objet type="bloquant" casex="8" casey="4"/>
+		  <objet type="bloquant" casex="8" casey="5"/>
+		  <objet type="bloquant" casex="8" casey="6"/>
+		  <objet type="bloquant" casex="8" casey="7"/>
+		  <objet type="bloquant" casex="8" casey="8"/>
+		  <objet type="bloquant" casex="9" casey="8"/>
+		  <objet type="bloquant" casex="10" casey="8"/>
+		  <objet type="bloquant" casex="11" casey="8"/>
+		  <objet type="bloquant" casex="12" casey="8"/>
+		  <objet type="bloquant" casex="13" casey="8"/>
+		  <objet type="bloquant" casex="14" casey="8"/>
+		  <objet type="bloquant" casex="15" casey="8"/>
+		  <objet type="bloquant" casex="16" casey="8"/>
+		  <objet type="bloquant" casex="17" casey="8"/>
+		  <objet type="bloquant" casex="15" casey="9"/>
+		  <objet type="bloquant" casex="16" casey="9"/>
+		  <objet type="bloquant" casex="18" casey="8"/>
+		  <objet type="bloquant" casex="19" casey="8"/>
+		  <objet type="bloquant" casex="20" casey="8"/>
+		  <objet type="bloquant" casex="21" casey="8"/>
+		  <objet type="bloquant" casex="21" casey="9"/>
+		  <objet type="bloquant" casex="22" casey="8"/>
+		  <objet type="bloquant" casex="23" casey="8"/>
+		  <objet type="bloquant" casex="24" casey="9"/>
+		  <objet type="bloquant" casex="24" casey="8"/>
+		  <objet type="bloquant" casex="25" casey="8"/>
+		  <objet type="bloquant" casex="26" casey="8"/>
+		  <objet type="bloquant" casex="27" casey="8"/>
+		  <objet type="bloquant" casex="29" casey="8"/>
+		  <objet type="bloquant" casex="30" casey="8"/>
+		  <objet type="bloquant" casex="28" casey="8"/>
+		  <objet type="bloquant" casex="30" casey="7"/>
+		  <objet type="bloquant" casex="30" casey="6"/>
+		  <objet type="bloquant" casex="30" casey="5"/>
+		  <objet type="bloquant" casex="30" casey="4"/>
+		  <objet type="bloquant" casex="31" casey="6"/>
+		  <objet type="bloquant" casex="32" casey="5"/>
+		  <objet type="bloquant" casex="32" casey="5"/>
+		  <objet type="bloquant" casex="33" casey="5"/>
+		  <objet type="bloquant" casex="34" casey="5"/>
+		  <objet type="bloquant" casex="34" casey="6"/>
+		  <objet type="bloquant" casex="34" casey="7"/>
+		  <objet type="bloquant" casex="34" casey="8"/>
+		  <objet type="bloquant" casex="34" casey="10"/>
+		  <objet type="bloquant" casex="34" casey="9"/>
+		  <objet type="bloquant" casex="34" casey="11"/>
+		  <objet type="bloquant" casex="34" casey="12"/>
+		  <objet type="bloquant" casex="32" casey="12"/>
+		  <objet type="bloquant" casex="33" casey="12"/>
+		  <objet type="bloquant" casex="31" casey="12"/>
+		  <objet type="bloquant" casex="29" casey="12"/>
+		  <objet type="bloquant" casex="30" casey="12"/>
+		  <objet type="bloquant" casex="28" casey="12"/>
+		  <objet type="bloquant" casex="27" casey="12"/>
+		  <objet type="bloquant" casex="25" casey="12"/>
+		  <objet type="bloquant" casex="24" casey="12"/>
+		  <objet type="bloquant" casex="24" casey="13"/>
+		  <objet type="bloquant" casex="23" casey="14"/>
+		  <objet type="bloquant" casex="21" casey="14"/>
+		  <objet type="bloquant" casex="21" casey="15"/>
+		  <objet type="bloquant" casex="21" casey="16"/>
+		  <objet type="bloquant" casex="23" casey="15"/>
+		  <objet type="bloquant" casex="23" casey="16"/>
+		  <objet type="bloquant" casex="20" casey="13"/>
+		  <objet type="bloquant" casex="20" casey="12"/>
+		  <objet type="bloquant" casex="19" casey="12"/>
+		  <objet type="bloquant" casex="18" casey="12"/>
+		  <objet type="bloquant" casex="17" casey="12"/>
+		  <objet type="bloquant" casex="16" casey="12"/>
+		  <objet type="bloquant" casex="15" casey="12"/>
+		  <objet type="bloquant" casex="14" casey="12"/>
+		  <objet type="bloquant" casex="13" casey="12"/>
+		  <objet type="bloquant" casex="12" casey="12"/>
+		  <objet type="bloquant" casex="11" casey="12"/>
+		  <objet type="bloquant" casex="10" casey="12"/>
+		  <objet type="bloquant" casex="9" casey="12"/>
+		  <objet type="bloquant" casex="8" casey="12"/>
+		  <objet type="bloquant" casex="7" casey="12"/>
+		  <objet type="bloquant" casex="7" casey="12"/>
+		  <objet type="bloquant" casex="6" casey="12"/>
+		  <objet type="bloquant" casex="5" casey="12"/>
+		  <objet type="bloquant" casex="4" casey="12"/>
+		  <objet type="bloquant" casex="4" casey="11"/>
+		  <objet type="bloquant" casex="4" casey="10"/>
+		  <objet type="bloquant" casex="4" casey="9"/>
+		  <objet type="bloquant" casex="4" casey="8"/>
+		  <objet type="bloquant" casex="4" casey="7"/>
+		  <objet type="bloquant" casex="4" casey="6"/>
+		  <objet type="bloquant" casex="4" casey="5"/>
+		  <objet type="bloquant" casex="23" casey="17"/>
+		  <objet type="bloquant" casex="21" casey="17"/>
+		  <objet type="bloquant" casex="20" casey="18"/>
+		  <objet type="bloquant" casex="24" casey="18"/>
+		  <objet type="bloquant" casex="24" casey="19"/>
+		  <objet type="bloquant" casex="24" casey="20"/>
+		  <objet type="bloquant" casex="24" casey="21"/>
+		  <objet type="bloquant" casex="24" casey="22"/>
+		  <objet type="bloquant" casex="20" casey="19"/>
+		  <objet type="bloquant" casex="20" casey="21"/>
+		  <objet type="bloquant" casex="20" casey="20"/>
+		  <objet type="bloquant" casex="20" casey="22"/>
+		  <objet type="bloquant" casex="19" casey="22"/>
+		  <objet type="bloquant" casex="17" casey="22"/>
+		  <objet type="bloquant" casex="18" casey="22"/>
+		  <objet type="bloquant" casex="16" casey="22"/>
+		  <objet type="bloquant" casex="15" casey="22"/>
+		  <objet type="bloquant" casex="14" casey="22"/>
+		  <objet type="bloquant" casex="13" casey="22"/>
+		  <objet type="bloquant" casex="12" casey="22"/>
+		  <objet type="bloquant" casex="11" casey="22"/>
+		  <objet type="bloquant" casex="10" casey="22"/>
+		  <objet type="bloquant" casex="10" casey="23"/>
+		  <objet type="bloquant" casex="10" casey="24"/>
+		  <objet type="bloquant" casex="10" casey="25"/>
+		  <objet type="bloquant" casex="9" casey="26"/>
+		  <objet type="bloquant" casex="9" casey="27"/>
+		  <objet type="bloquant" casex="9" casey="28"/>
+		  <objet type="bloquant" casex="10" casey="28"/>
+		  <objet type="bloquant" casex="11" casey="29"/>
+		  <objet type="bloquant" casex="12" casey="28"/>
+		  <objet type="bloquant" casex="13" casey="27"/>
+		  <objet type="bloquant" casex="13" casey="26"/>
+		  <objet type="bloquant" casex="14" casey="26"/>
+		  <objet type="bloquant" casex="16" casey="26"/>
+		  <objet type="bloquant" casex="15" casey="26"/>
+		  <objet type="bloquant" casex="17" casey="26"/>
+		  <objet type="bloquant" casex="18" casey="26"/>
+		  <objet type="bloquant" casex="19" casey="26"/>
+		  <objet type="bloquant" casex="20" casey="26"/>
+		  <objet type="bloquant" casex="21" casey="26"/>
+		  <objet type="bloquant" casex="22" casey="26"/>
+		  <objet type="bloquant" casex="23" casey="26"/>
+		  <objet type="bloquant" casex="24" casey="26"/>
+		  <objet type="bloquant" casex="25" casey="26"/>
+		  <objet type="bloquant" casex="26" casey="26"/>
+		  <objet type="bloquant" casex="27" casey="26"/>
+		  <objet type="bloquant" casex="27" casey="27"/>
+		  <objet type="bloquant" casex="27" casey="28"/>
+		  <objet type="bloquant" casex="27" casey="29"/>
+		  <objet type="bloquant" casex="27" casey="30"/>
+		  <objet type="bloquant" casex="28" casey="30"/>
+		  <objet type="bloquant" casex="29" casey="31"/>
+		  <objet type="bloquant" casex="30" casey="31"/>
+		  <objet type="bloquant" casex="31" casey="31"/>
+		  <objet type="bloquant" casex="32" casey="31"/>
+		  <objet type="bloquant" casex="33" casey="31"/>
+		  <objet type="bloquant" casex="34" casey="31"/>
+		  <objet type="bloquant" casex="35" casey="31"/>
+		  <objet type="bloquant" casex="35" casey="30"/>
+		  <objet type="bloquant" casex="36" casey="29"/>
+		  <objet type="bloquant" casex="36" casey="28"/>
+		  <objet type="bloquant" casex="36" casey="27"/>
+		  <objet type="bloquant" casex="35" casey="27"/>
+		  <objet type="bloquant" casex="34" casey="27"/>
+		  <objet type="bloquant" casex="34" casey="26"/>
+		  <objet type="bloquant" casex="35" casey="26"/>
+		  <objet type="bloquant" casex="34" casey="25"/>
+		  <objet type="bloquant" casex="33" casey="26"/>
+		  <objet type="bloquant" casex="33" casey="25"/>
+		  <objet type="bloquant" casex="33" casey="24"/>
+		  <objet type="bloquant" casex="33" casey="23"/>
+		  <objet type="bloquant" casex="32" casey="24"/>
+		  <objet type="bloquant" casex="31" casey="23"/>
+		  <objet type="bloquant" casex="30" casey="22"/>
+		  <objet type="bloquant" casex="29" casey="22"/>
+		  <objet type="bloquant" casex="27" casey="22"/>
+		  <objet type="bloquant" casex="26" casey="22"/>
+		  <objet type="bloquant" casex="25" casey="22"/>
+		  <objet type="bloquant" casex="28" casey="22"/>
+		  <objet type="bloquant" casex="32" casey="6"/>
+		  <objet type="bloquant" casex="34" casey="6"/>
+		  <objet type="bloquant" casex="33" casey="6"/>
+		  <objet type="bloquant" casex="21" casey="22"/>
+		  <objet type="bloquant" casex="23" casey="22"/>
+		  <objet type="bloquant" casex="31" casey="24"/>
+		  <objet type="bloquant" casex="12" casey="9"/>
+		  <objet type="bloquant" casex="11" casey="9"/>
+    </map>
+    
+    <map nom="maisonmarche" description="Maison de Toinou" taillecase="32" casedepartx="17" casedeparty="2" sensdepart="bas">
+    
+		<personnage type="ambulant" nomimage="binoclard" nom="Toinou" posx="281" posy="394" vitesse="5" tox="542" toy="394" message="Salut ! tu veux jouer avec moi ? "/>
+		
+		<personnage type="ambulant" nomimage="fille2" nom="Cuisinière" posx="16" posy="96" vitesse="4" tox="218" toy="96" message="Désolé j'ai vraiment trop de travail...je ne peux pas t'aider dans ta quête " />
+		
+		
+		<personnage type="fixe" nomimage="fillette" nom="Aline" posx="518" posy="501" sens="haut" message="Z'ai perdu mon Doudou, tu peux m'aider a la retrouver ? "  />
+		
+		<personnage type="fixe" nomimage="homme1" nom="Francis" posx="689" posy="53" sens="bas" message="Ah qu'il fait bon prêt du feu !" />
+		
+		
+		<!-- MARCHE-->
+		<objet type="teleportation" mapsuivante="marche" casearriveex="28" casearriveey="7" casex="17" casey="1" sensarrivee="bas"/>
+		<objet type="teleportation" mapsuivante="cavemaison" casearriveex="7" casearriveey="2" casex="16" casey="5" sensarrivee="bas"/>
+		
+		
+		  <objet type="bloquant" casex="0" casey="8"/>
+		  <objet type="bloquant" casex="1" casey="8"/>
+		  <objet type="bloquant" casex="2" casey="9"/>
+		  <objet type="bloquant" casex="3" casey="9"/>
+		  <objet type="bloquant" casex="7" casey="10"/>
+		  <objet type="bloquant" casex="7" casey="11"/>
+		  <objet type="bloquant" casex="7" casey="11"/>
+		  <objet type="bloquant" casex="7" casey="12"/>
+		  <objet type="bloquant" casex="7" casey="13"/>
+		  <objet type="bloquant" casex="7" casey="13"/>
+		  <objet type="bloquant" casex="7" casey="14"/>
+		  <objet type="bloquant" casex="7" casey="15"/>
+		  <objet type="bloquant" casex="7" casey="16"/>
+		  <objet type="bloquant" casex="7" casey="17"/>
+		  <objet type="bloquant" casex="4" casey="9"/>
+		  <objet type="bloquant" casex="5" casey="9"/>
+		  <objet type="bloquant" casex="6" casey="9"/>
+		  <objet type="bloquant" casex="7" casey="9"/>
+		  <objet type="bloquant" casex="7" casey="8"/>
+		  <objet type="bloquant" casex="5" casey="8"/>
+		  <objet type="bloquant" casex="6" casey="8"/>
+		  <objet type="bloquant" casex="1" casey="5"/>
+		  <objet type="bloquant" casex="1" casey="6"/>
+		  <objet type="bloquant" casex="2" casey="6"/>
+		  <objet type="bloquant" casex="3" casey="6"/>
+		  <objet type="bloquant" casex="4" casey="6"/>
+		  <objet type="bloquant" casex="5" casey="6"/>
+		  <objet type="bloquant" casex="5" casey="5"/>
+		  <objet type="bloquant" casex="4" casey="5"/>
+		  <objet type="bloquant" casex="3" casey="5"/>
+		  <objet type="bloquant" casex="2" casey="5"/>
+		  <objet type="bloquant" casex="8" casey="8"/>
+		  <objet type="bloquant" casex="8" casey="9"/>
+		  <objet type="bloquant" casex="8" casey="7"/>
+		  <objet type="bloquant" casex="8" casey="6"/>
+		  <objet type="bloquant" casex="8" casey="6"/>
+		  <objet type="bloquant" casex="8" casey="5"/>
+		  <objet type="bloquant" casex="8" casey="5"/>
+		  <objet type="bloquant" casex="8" casey="4"/>
+		  <objet type="bloquant" casex="8" casey="10"/>
+		  <objet type="bloquant" casex="9" casey="10"/>
+		  <objet type="bloquant" casex="10" casey="10"/>
+		  <objet type="bloquant" casex="11" casey="10"/>
+		  <objet type="bloquant" casex="12" casey="10"/>
+		  <objet type="bloquant" casex="13" casey="10"/>
+		  <objet type="bloquant" casex="13" casey="10"/>
+		  <objet type="bloquant" casex="14" casey="10"/>
+		  <objet type="bloquant" casex="14" casey="10"/>
+		  <objet type="bloquant" casex="15" casey="10"/>
+		  <objet type="bloquant" casex="17" casey="10"/>
+		  <objet type="bloquant" casex="18" casey="10"/>
+		  <objet type="bloquant" casex="19" casey="10"/>
+		  <objet type="bloquant" casex="20" casey="10"/>
+		  <objet type="bloquant" casex="21" casey="10"/>
+		  <objet type="bloquant" casex="22" casey="10"/>
+		  <objet type="bloquant" casex="22" casey="10"/>
+		  <objet type="bloquant" casex="23" casey="10"/>
+		  <objet type="bloquant" casex="24" casey="10"/>
+		  <objet type="bloquant" casex="23" casey="11"/>
+		  <objet type="bloquant" casex="22" casey="11"/>
+		  <objet type="bloquant" casex="21" casey="11"/>
+		  <objet type="bloquant" casex="24" casey="11"/>
+		  <objet type="bloquant" casex="22" casey="15"/>
+		  <objet type="bloquant" casex="21" casey="15"/>
+		  <objet type="bloquant" casex="20" casey="15"/>
+		  <objet type="bloquant" casex="23" casey="15"/>
+		  <objet type="bloquant" casex="22" casey="16"/>
+		  <objet type="bloquant" casex="21" casey="16"/>
+		  <objet type="bloquant" casex="11" casey="15"/>
+		  <objet type="bloquant" casex="11" casey="16"/>
+		  <objet type="bloquant" casex="13" casey="16"/>
+		  <objet type="bloquant" casex="13" casey="15"/>
+		  <objet type="bloquant" casex="16" casey="17"/>
+		  <objet type="bloquant" casex="17" casey="17"/>
+		  <objet type="bloquant" casex="17" casey="15"/>
+		  <objet type="bloquant" casex="15" casey="15"/>
+		  <objet type="bloquant" casex="15" casey="16"/>
+		  <objet type="bloquant" casex="9" casey="15"/>
+		  <objet type="bloquant" casex="10" casey="11"/>
+		  <objet type="bloquant" casex="11" casey="11"/>
+		  <objet type="bloquant" casex="16" casey="6"/>
+		  <objet type="bloquant" casex="0" casey="2"/>
+		  <objet type="bloquant" casex="0" casey="2"/>
+		  <objet type="bloquant" casex="1" casey="2"/>
+		  <objet type="bloquant" casex="2" casey="2"/>
+		  <objet type="bloquant" casex="3" casey="2"/>
+		  <objet type="bloquant" casex="4" casey="2"/>
+		  <objet type="bloquant" casex="5" casey="2"/>
+		  <objet type="bloquant" casex="6" casey="2"/>
+		  <objet type="bloquant" casex="6" casey="1"/>
+		  <objet type="bloquant" casex="7" casey="1"/>
+		  <objet type="bloquant" casex="8" casey="1"/>
+		  <objet type="bloquant" casex="9" casey="1"/>
+		  <objet type="bloquant" casex="10" casey="1"/>
+		  <objet type="bloquant" casex="11" casey="1"/>
+		  <objet type="bloquant" casex="11" casey="1"/>
+		  <objet type="bloquant" casex="12" casey="1"/>
+		  <objet type="bloquant" casex="13" casey="1"/>
+		  <objet type="bloquant" casex="14" casey="1"/>
+		  <objet type="bloquant" casex="15" casey="1"/>
+		  <objet type="bloquant" casex="16" casey="1"/>
+		  <objet type="bloquant" casex="18" casey="1"/>
+		  <objet type="bloquant" casex="19" casey="1"/>
+		  <objet type="bloquant" casex="18" casey="2"/>
+		  <objet type="bloquant" casex="20" casey="2"/>
+		  <objet type="bloquant" casex="20" casey="1"/>
+		  <objet type="bloquant" casex="21" casey="1"/>
+		  <objet type="bloquant" casex="23" casey="1"/>
+		  <objet type="bloquant" casex="23" casey="2"/>
+		  <objet type="bloquant" casex="22" casey="2"/>
+		  <objet type="bloquant" casex="22" casey="2"/>
+		  <objet type="bloquant" casex="22" casey="1"/>
+		  <objet type="bloquant" casex="21" casey="2"/>
+		  <objet type="bloquant" casex="20" casey="4"/>
+		  <objet type="bloquant" casex="20" casey="5"/>
+		  <objet type="bloquant" casex="21" casey="5"/>
+		  <objet type="bloquant" casex="22" casey="5"/>
+		  <objet type="bloquant" casex="23" casey="5"/>
+		  <objet type="bloquant" casex="24" casey="6"/>
+		  <objet type="bloquant" casex="18" casey="17"/>
+		  <objet type="bloquant" casex="18" casey="16"/>
+		  <objet type="bloquant" casex="18" casey="15"/>
+		  <objet type="bloquant" casex="18" casey="14"/>
+		  <objet type="bloquant" casex="18" casey="13"/>
+		  <objet type="bloquant" casex="13" casey="2"/>
+		  <objet type="bloquant" casex="14" casey="2"/>
+		  <objet type="bloquant" casex="13" casey="4"/>
+		  <objet type="bloquant" casex="12" casey="4"/>
+		  <objet type="bloquant" casex="11" casey="4"/>
+		  <objet type="bloquant" casex="10" casey="4"/>
+		  <objet type="bloquant" casex="10" casey="5"/>
+		  <objet type="bloquant" casex="11" casey="5"/>
+		  <objet type="bloquant" casex="13" casey="5"/>
+		  <objet type="bloquant" casex="12" casey="5"/>
+		  <objet type="bloquant" casex="4" casey="8"/>
+		  <objet type="bloquant" casex="21" casey="6"/>
+		  <objet type="bloquant" casex="22" casey="6"/>
+		  <objet type="bloquant" casex="24" casey="1"/>
+    </map>
+	<map nom="plaineverte" description="Plaine verte" taillecase="32" casedepartx="18" casedeparty="9" sensdepart="bas">
+    
+			<personnage type="ambulant" nomimage="bucheron" nom="Alban" vitesse="4" posx="429" posy="190" tox="681" toy="190" message="Salut ! J'ai vu que tu étais nouveau dans le Bouchonnois ! Si tu as des questions n'hésite pas à aller voir Ritoune la débrouille sur la place du marché." />
+			<personnage type="ambulant" nomimage="fermier" nom="Robert" vitesse="4" posx="128" posy="463" tox="260" toy="463" message="Bien le bonjour gamin ! J'ai entendu dire que ce que tu cherchais se trouvait dans la mine ! Pour t'aider dans ta quête, voici une lanterne pour t'éclairer !" />
+			<objet type="transmettable" nom="Lanterne" personnage="Robert" image="lanterne" messageapresobjet="Hop hop hop ça coute déjà assez cher une seule lanterne !"/>
+	
+			<objet type="ramassable" x="289" y="295" image="pioche" nom="Pioche"/>
+			<objet type="teleportationdeblocable" mapsuivante="mine" casearriveex="6" casearriveey="3" casex="33" casey="2" listeobjets="Lanterne,Pioche" sensarrivee="bas" message="Il faut la pioche et la lanterne pour entrer"/>
+			<personnage type="ambulant" nomimage="fille2" nom="Suzanne" vitesse="4" posx="588" posy="585" tox="588" toy="795" message="Désolé, ma mère m'a dit de ne pas parler aux étrangers..." />
+			
+			<personnage type="fixe" nomimage="clochard" nom="Albert" posx="896" posy="431" sens="bas" message="J'ai entendu des légendes sur le caveau royal sous-terrain devant moi. Certains disent même que la mort y vivrait !" />
+			<personnage type="fixe" nomimage="chasseur" nom="Jean Pierre Treiber" posx="752" posy="648" sens="bas" message="Ne dis pas à la police que je suis là ! Pour acheter ton silence voici un cristal qui te permettra d'entrer dans le caveau" />
+			<objet type="transmettable" nom="Cristal jaune" personnage="Jean Pierre Treiber" image="crystaljaune" messageapresobjet="Je t'ai demandé de ne rien dire en échange du cristal !"/>
+			
+			<objet type="teleportationdeblocable" mapsuivante="caveau" casearriveex="7" casearriveey="2" casex="28" casey="17" listeobjets="Cristal noir,Cristal jaune,Cristal violet,Cristal bleu,Cristal vert" message="Il te faut les 5 cristaux pour entrer" sensarrivee="bas"/>
+			
+			  <objet type="bloquant" casex="1" casey="14"/>
+			  <objet type="bloquant" casex="0" casey="14"/>
+			  <objet type="bloquant" casex="2" casey="14"/>
+			  <objet type="bloquant" casex="3" casey="14"/>
+			  <objet type="bloquant" casex="4" casey="14"/>
+			  <objet type="bloquant" casex="4" casey="13"/>
+			  <objet type="bloquant" casex="4" casey="12"/>
+			  <objet type="bloquant" casex="5" casey="11"/>
+			  <objet type="bloquant" casex="4" casey="11"/>
+			  <objet type="bloquant" casex="4" casey="10"/>
+			  <objet type="bloquant" casex="3" casey="10"/>
+			  <objet type="bloquant" casex="2" casey="10"/>
+			  <objet type="bloquant" casex="2" casey="9"/>
+			  <objet type="bloquant" casex="2" casey="8"/>
+			  <objet type="bloquant" casex="3" casey="7"/>
+			  <objet type="bloquant" casex="4" casey="6"/>
+			  <objet type="bloquant" casex="5" casey="6"/>
+			  <objet type="bloquant" casex="6" casey="6"/>
+			  <objet type="bloquant" casex="6" casey="5"/>
+			  <objet type="bloquant" casex="7" casey="4"/>
+			  <objet type="bloquant" casex="8" casey="5"/>
+			  <objet type="bloquant" casex="8" casey="6"/>
+			  <objet type="bloquant" casex="8" casey="7"/>
+			  <objet type="bloquant" casex="8" casey="8"/>
+			  <objet type="bloquant" casex="9" casey="8"/>
+			  <objet type="bloquant" casex="11" casey="8"/>
+			  <objet type="bloquant" casex="12" casey="8"/>
+			  <objet type="bloquant" casex="12" casey="7"/>
+			  <objet type="bloquant" casex="12" casey="6"/>
+			  <objet type="bloquant" casex="12" casey="5"/>
+			  <objet type="bloquant" casex="13" casey="4"/>
+			  <objet type="bloquant" casex="14" casey="4"/>
+			  <objet type="bloquant" casex="15" casey="4"/>
+			  <objet type="bloquant" casex="16" casey="4"/>
+			  <objet type="bloquant" casex="17" casey="4"/>
+			  <objet type="bloquant" casex="18" casey="4"/>
+			  <objet type="bloquant" casex="18" casey="3"/>
+			  <objet type="bloquant" casex="19" casey="3"/>
+			  <objet type="bloquant" casex="20" casey="3"/>
+			  <objet type="bloquant" casex="21" casey="3"/>
+			  <objet type="bloquant" casex="21" casey="3"/>
+			  <objet type="bloquant" casex="22" casey="3"/>
+			  <objet type="bloquant" casex="23" casey="3"/>
+			  <objet type="bloquant" casex="24" casey="3"/>
+			  <objet type="bloquant" casex="25" casey="4"/>
+			  <objet type="bloquant" casex="26" casey="3"/>
+			  <objet type="bloquant" casex="27" casey="3"/>
+			  <objet type="bloquant" casex="27" casey="3"/>
+			  <objet type="bloquant" casex="27" casey="4"/>
+			  <objet type="bloquant" casex="28" casey="4"/>
+			  <objet type="bloquant" casex="29" casey="4"/>
+			  <objet type="bloquant" casex="30" casey="4"/>
+			  <objet type="bloquant" casex="31" casey="5"/>
+			  <objet type="bloquant" casex="0" casey="16"/>
+			  <objet type="bloquant" casex="1" casey="16"/>
+			  <objet type="bloquant" casex="2" casey="16"/>
+			  <objet type="bloquant" casex="2" casey="16"/>
+			  <objet type="bloquant" casex="3" casey="16"/>
+			  <objet type="bloquant" casex="4" casey="16"/>
+			  <objet type="bloquant" casex="4" casey="17"/>
+			  <objet type="bloquant" casex="4" casey="18"/>
+			  <objet type="bloquant" casex="3" casey="18"/>
+			  <objet type="bloquant" casex="2" casey="18"/>
+			  <objet type="bloquant" casex="1" casey="18"/>
+			  <objet type="bloquant" casex="0" casey="18"/>
+			  <objet type="bloquant" casex="0" casey="20"/>
+			  <objet type="bloquant" casex="1" casey="20"/>
+			  <objet type="bloquant" casex="2" casey="20"/>
+			  <objet type="bloquant" casex="3" casey="20"/>
+			  <objet type="bloquant" casex="3" casey="21"/>
+			  <objet type="bloquant" casex="4" casey="22"/>
+			  <objet type="bloquant" casex="5" casey="22"/>
+			  <objet type="bloquant" casex="6" casey="22"/>
+			  <objet type="bloquant" casex="7" casey="22"/>
+			  <objet type="bloquant" casex="7" casey="23"/>
+			  <objet type="bloquant" casex="7" casey="24"/>
+			  <objet type="bloquant" casex="8" casey="25"/>
+			  <objet type="bloquant" casex="9" casey="26"/>
+			  <objet type="bloquant" casex="9" casey="26"/>
+			  <objet type="bloquant" casex="10" casey="26"/>
+			  <objet type="bloquant" casex="11" casey="25"/>
+			  <objet type="bloquant" casex="11" casey="24"/>
+			  <objet type="bloquant" casex="11" casey="23"/>
+			  <objet type="bloquant" casex="12" casey="23"/>
+			  <objet type="bloquant" casex="14" casey="23"/>
+			  <objet type="bloquant" casex="14" casey="24"/>
+			  <objet type="bloquant" casex="14" casey="26"/>
+			  <objet type="bloquant" casex="14" casey="25"/>
+			  <objet type="bloquant" casex="14" casey="27"/>
+			  <objet type="bloquant" casex="14" casey="28"/>
+			  <objet type="bloquant" casex="14" casey="29"/>
+			  <objet type="bloquant" casex="12" casey="27"/>
+			  <objet type="bloquant" casex="12" casey="28"/>
+			  <objet type="bloquant" casex="12" casey="29"/>
+			  <objet type="bloquant" casex="12" casey="30"/>
+			  <objet type="bloquant" casex="12" casey="30"/>
+			  <objet type="bloquant" casex="12" casey="31"/>
+			  <objet type="bloquant" casex="14" casey="30"/>
+			  <objet type="bloquant" casex="14" casey="31"/>
+			  <objet type="bloquant" casex="15" casey="23"/>
+			  <objet type="bloquant" casex="15" casey="24"/>
+			  <objet type="bloquant" casex="15" casey="24"/>
+			  <objet type="bloquant" casex="17" casey="24"/>
+			  <objet type="bloquant" casex="15" casey="25"/>
+			  <objet type="bloquant" casex="15" casey="26"/>
+			  <objet type="bloquant" casex="15" casey="27"/>
+			  <objet type="bloquant" casex="16" casey="28"/>
+			  <objet type="bloquant" casex="17" casey="28"/>
+			  <objet type="bloquant" casex="18" casey="28"/>
+			  <objet type="bloquant" casex="19" casey="27"/>
+			  <objet type="bloquant" casex="20" casey="27"/>
+			  <objet type="bloquant" casex="21" casey="27"/>
+			  <objet type="bloquant" casex="22" casey="27"/>
+			  <objet type="bloquant" casex="23" casey="27"/>
+			  <objet type="bloquant" casex="24" casey="27"/>
+			  <objet type="bloquant" casex="25" casey="27"/>
+			  <objet type="bloquant" casex="21" casey="18"/>
+			  <objet type="bloquant" casex="20" casey="18"/>
+			  <objet type="bloquant" casex="21" casey="19"/>
+			  <objet type="bloquant" casex="21" casey="20"/>
+			  <objet type="bloquant" casex="22" casey="20"/>
+			  <objet type="bloquant" casex="22" casey="19"/>
+			  <objet type="bloquant" casex="22" casey="18"/>
+			  <objet type="bloquant" casex="23" casey="18"/>
+			  <objet type="bloquant" casex="23" casey="19"/>
+			  <objet type="bloquant" casex="23" casey="20"/>
+			  <objet type="bloquant" casex="24" casey="20"/>
+			  <objet type="bloquant" casex="24" casey="19"/>
+			  <objet type="bloquant" casex="24" casey="18"/>
+			  <objet type="bloquant" casex="25" casey="26"/>
+			  <objet type="bloquant" casex="25" casey="25"/>
+			  <objet type="bloquant" casex="26" casey="25"/>
+			  <objet type="bloquant" casex="27" casey="24"/>
+			  <objet type="bloquant" casex="28" casey="23"/>
+			  <objet type="bloquant" casex="27" casey="22"/>
+			  <objet type="bloquant" casex="28" casey="21"/>
+			  <objet type="bloquant" casex="28" casey="20"/>
+			  <objet type="bloquant" casex="28" casey="19"/>
+			  <objet type="bloquant" casex="29" casey="19"/>
+			  <objet type="bloquant" casex="10" casey="12"/>
+			  <objet type="bloquant" casex="8" casey="11"/>
+			  <objet type="bloquant" casex="8" casey="13"/>
+			  <objet type="bloquant" casex="12" casey="13"/>
+			  <objet type="bloquant" casex="12" casey="12"/>
+			  <objet type="bloquant" casex="12" casey="11"/>
+			  <objet type="bloquant" casex="14" casey="8"/>
+			  <objet type="bloquant" casex="15" casey="8"/>
+			  <objet type="bloquant" casex="17" casey="6"/>
+			  <objet type="bloquant" casex="20" casey="5"/>
+			  <objet type="bloquant" casex="21" casey="6"/>
+			  <objet type="bloquant" casex="21" casey="5"/>
+			  <objet type="bloquant" casex="27" casey="12"/>
+			  <objet type="bloquant" casex="28" casey="12"/>
+			  <objet type="bloquant" casex="30" casey="11"/>
+			  <objet type="bloquant" casex="31" casey="11"/>
+			  <objet type="bloquant" casex="28" casey="15"/>
+			  <objet type="bloquant" casex="29" casey="15"/>
+			  <objet type="bloquant" casex="30" casey="15"/>
+			  <objet type="bloquant" casex="31" casey="15"/>
+			  <objet type="bloquant" casex="32" casey="15"/>
+			  <objet type="bloquant" casex="32" casey="16"/>
+			  <objet type="bloquant" casex="31" casey="17"/>
+			  <objet type="bloquant" casex="30" casey="17"/>
+			  <objet type="bloquant" casex="30" casey="19"/>
+			  <objet type="bloquant" casex="31" casey="19"/>
+			  <objet type="bloquant" casex="32" casey="19"/>
+			  <objet type="bloquant" casex="33" casey="18"/>
+			  <objet type="bloquant" casex="33" casey="17"/>
+			  <objet type="bloquant" casex="34" casey="17"/>
+			  <objet type="bloquant" casex="34" casey="17"/>
+			  <objet type="bloquant" casex="35" casey="17"/>
+			  <objet type="bloquant" casex="36" casey="17"/>
+			  <objet type="bloquant" casex="37" casey="17"/>
+			  <objet type="bloquant" casex="38" casey="16"/>
+			  <objet type="bloquant" casex="38" casey="15"/>
+			  <objet type="bloquant" casex="38" casey="14"/>
+			  <objet type="bloquant" casex="38" casey="13"/>
+			  <objet type="bloquant" casex="38" casey="12"/>
+			  <objet type="bloquant" casex="37" casey="11"/>
+			  <objet type="bloquant" casex="37" casey="10"/>
+			  <objet type="bloquant" casex="38" casey="9"/>
+			  <objet type="bloquant" casex="38" casey="8"/>
+			  <objet type="bloquant" casex="39" casey="8"/>
+			  <objet type="bloquant" casex="38" casey="6"/>
+			  <objet type="bloquant" casex="37" casey="6"/>
+			  <objet type="bloquant" casex="39" casey="6"/>
+			  <objet type="bloquant" casex="37" casey="8"/>
+			  <objet type="bloquant" casex="38" casey="5"/>
+			  <objet type="bloquant" casex="38" casey="4"/>
+			  <objet type="bloquant" casex="38" casey="3"/>
+			  <objet type="bloquant" casex="38" casey="2"/>
+			  <objet type="bloquant" casex="37" casey="4"/>
+			  <objet type="bloquant" casex="36" casey="4"/>
+			  <objet type="bloquant" casex="35" casey="4"/>
+			  <objet type="bloquant" casex="35" casey="3"/>
+			  <objet type="bloquant" casex="34" casey="2"/>
+			  <objet type="bloquant" casex="32" casey="2"/>
+			  <objet type="bloquant" casex="31" casey="3"/>
+			  <objet type="bloquant" casex="12" casey="26"/>
+			  <objet type="bloquant" casex="12" casey="25"/>
+			  <objet type="bloquant" casex="12" casey="24"/>
+		  
+		  
+		<!-- MARCHÉ-->
+		
+        <objet type="teleportation" mapsuivante="marche" casearriveex="1" casearriveey="6" casex="39" casey="7" sensarrivee="droite"/>
+
+		<!-- CHATEAU-->
+        <objet type="teleportationdeblocable" message="Tu dois porter une tunique pour rentrer dans ce village" listeobjets="Tunique" mapsuivante="chateau" casearriveex="13" casearriveey="1" casex="13" casey="31" sensarrivee="bas"/>
+        
+        <objet type="teleportation" mapsuivante="interieurtente" casearriveex="7" casearriveey="25" casex="10" casey="8" sensarrivee="haut"/>     
+
+    </map>
+    
+    <map nom="marche" description="Place du marche" taillecase="32" casedepartx="24" casedeparty="8" sensdepart="bas">
+		<personnage type="ambulant" nomimage="moine" nom="Ritoune la débrouille" vitesse="5" posx="333" posy="214" tox="620" toy="214" message="Salut ! C'est moi Ritoune ! T'as l'air sympa alors je vais te donner la clé de la maison de mon ex-femme ! Elle est juste à côté." />
+		<objet type="transmettable" nom="Cle-ex" personnage="Ritoune la débrouille" image="cle1" messageapresobjet="Si tu as perdu la clé c'est tanpis !"/>
+		
+		<objet type="teleportationdeblocable" message="Il te faut la clé de Ritoune pour rentrer" listeobjets="Cle-ex" mapsuivante="maisonmarche" casearriveex="17" casearriveey="2" casex="28" casey="6" sensarrivee="bas"/>
+		<objet type="teleportationdeblocable" message="Il te faut la clé de Ritoune pour rentrer" listeobjets="Cle-ex" mapsuivante="maisonmarche" casearriveex="17" casearriveey="2" casex="29" casey="6" sensarrivee="bas"/>
+		
+		
+		
+		<personnage type="fixe" nomimage="fille1" nom="Alexandra" posx="522" posy="368" sens="bas" message="J'aime bien passer du temps sur le marché !toi aussi ?" />
+		<personnage type="ambulant" nomimage="docteur" nom="Stéphane Delajoux" vitesse="3" posx="800" posy="270" tox="800" toy="424" message="Tu savais que c'est moi qui ai opéré Johny halliday ?" />
+		<personnage type="ambulant" nomimage="binoclard" nom="Jules" vitesse="6" posx="606" posy="697" tox="830" toy="697" message="Bonzour ! tu veux zouer avec moua ?" />
+		<personnage type="ambulant" nomimage="homme1" nom="Vendeur de tunique" vitesse="4" posx="655" posy="494" tox="655" toy="627" message="Bonjour ! vous êtes nouveau non ? voici une tunique en cadeau pour votre arrivée. N'Hésitez pas à revenir" />
+		<objet type="transmettable" nom="Tunique" personnage="Vendeur de tunique" image="tunique" messageapresobjet="Votre quête avance bien ? revenez me donner de vos nouvelles !"/>
+
+
+        <objet type="bloquant"   casex="27" casey="18"/>
+        <objet type="bloquant"   casex="27" casey="17"/>
+        <objet type="bloquant"   casex="28" casey="22"/>
+        <objet type="bloquant"   casex="17" casey="21"/>
+        <objet type="bloquant"   casex="16" casey="15"/>
+        <objet type="bloquant"   casex="19" casey="29"/>
+        <objet type="bloquant"   casex="31" casey="21"/>
+        <objet type="bloquant"   casex="31" casey="22"/>
+        <objet type="bloquant"   casex="30" casey="23"/>
+        <objet type="bloquant"   casex="31" casey="18"/>
+        <objet type="bloquant"   casex="29" casey="22"/>
+        <objet type="bloquant"   casex="29" casey="21"/>
+        <objet type="bloquant"   casex="28" casey="21"/>
+        <objet type="bloquant"   casex="29" casey="17"/>
+        <objet type="bloquant"   casex="29" casey="18"/>
+        <objet type="bloquant"   casex="31" casey="17"/>
+        <objet type="bloquant"   casex="31" casey="18"/>
+        <objet type="bloquant"   casex="27" casey="6"/>
+        <objet type="bloquant"   casex="28" casey="19"/>
+        <objet type="bloquant"   casex="29" casey="19"/>
+        <objet type="bloquant"   casex="31" casey="4"/>
+        <objet type="bloquant"   casex="30" casey="5"/>
+        <objet type="bloquant"   casex="30" casey="6"/>
+        <objet type="bloquant"   casex="29" casey="6"/>
+        <objet type="bloquant"   casex="27" casey="6"/>
+        <objet type="bloquant"   casex="19" casey="16"/>
+        <objet type="bloquant"   casex="1" casey="17"/>
+        <objet type="bloquant"   casex="1" casey="18"/>
+        <objet type="bloquant"   casex="0" casey="19"/>
+        <objet type="bloquant"   casex="2" casey="0"/>
+        <objet type="bloquant"   casex="2" casey="1"/>
+        <objet type="bloquant"   casex="2" casey="2"/>
+        <objet type="bloquant"   casex="2" casey="3"/>
+        <objet type="bloquant"   casex="2" casey="4"/>
+        <objet type="bloquant"   casex="2" casey="5"/>
+        <objet type="bloquant"   casex="2" casey="9"/>
+        <objet type="bloquant"   casex="2" casey="10"/>
+        <objet type="bloquant"   casex="2" casey="11"/>
+        <objet type="bloquant"   casex="2" casey="12"/>        
+        <objet type="bloquant"   casex="2" casey="13"/>
+        <objet type="bloquant"   casex="2" casey="14"/>
+        <objet type="bloquant"   casex="2" casey="15"/>        
+        <objet type="bloquant"   casex="2" casey="16"/>
+        <objet type="bloquant"   casex="2" casey="6"/>
+        <objet type="bloquant"   casex="3" casey="6"/>
+        <objet type="bloquant"   casex="4" casey="6"/>
+        <objet type="bloquant"   casex="5" casey="6"/>
+        <objet type="bloquant"   casex="6" casey="6"/>
+        <objet type="bloquant"   casex="7" casey="6"/>
+        <objet type="bloquant"   casex="8" casey="6"/>        
+        <objet type="bloquant"   casex="2" casey="8"/>
+        <objet type="bloquant"   casex="3" casey="8"/>
+        <objet type="bloquant"   casex="4" casey="8"/>
+        <objet type="bloquant"   casex="5" casey="8"/>
+        <objet type="bloquant"   casex="6" casey="8"/>
+        <objet type="bloquant"   casex="7" casey="8"/>
+        <objet type="bloquant"   casex="8" casey="8"/>
+        <objet type="bloquant"   casex="20" casey="0"/>
+        <objet type="bloquant"   casex="20" casey="1"/>
+        <objet type="bloquant"   casex="19" casey="1"/>
+        <objet type="bloquant"   casex="18" casey="1"/>
+        <objet type="bloquant"   casex="17" casey="1"/>
+        <objet type="bloquant"   casex="16" casey="1"/>
+        <objet type="bloquant"   casex="15" casey="1"/>
+        <objet type="bloquant"   casex="14" casey="1"/>
+        <objet type="bloquant"   casex="13" casey="1"/>
+        <objet type="bloquant"   casex="12" casey="1"/>
+        <objet type="bloquant"   casex="11" casey="1"/>
+        <objet type="bloquant"   casex="10" casey="1"/>
+        <objet type="bloquant"   casex="9" casey="1"/>
+        <objet type="bloquant"   casex="8" casey="1"/>
+        <objet type="bloquant"   casex="8" casey="2"/>
+        <objet type="bloquant"   casex="8" casey="3"/>
+        <objet type="bloquant"   casex="8" casey="4"/>
+        <objet type="bloquant"   casex="9" casey="5"/>
+        <objet type="bloquant"   casex="9" casey="9"/>
+        <objet type="bloquant"   casex="9" casey="10"/>
+        <objet type="bloquant"   casex="10" casey="11"/>
+        <objet type="bloquant"   casex="11" casey="11"/>
+        <objet type="bloquant"   casex="13" casey="11"/>
+        <objet type="bloquant"   casex="14" casey="11"/>
+        <objet type="bloquant"   casex="19" casey="11"/>
+        <objet type="bloquant"   casex="20" casey="11"/>
+        <objet type="bloquant"   casex="28" casey="11"/>
+        <objet type="bloquant"   casex="29" casey="11"/>
+        <objet type="bloquant"   casex="28" casey="10"/>
+        <objet type="bloquant"   casex="29" casey="10"/>
+        <objet type="bloquant"   casex="19" casey="9"/>
+        <objet type="bloquant"   casex="19" casey="5"/>
+        <objet type="bloquant"   casex="15" casey="5"/>
+        <objet type="bloquant"   casex="14" casey="5"/>
+        <objet type="bloquant"   casex="13" casey="5"/>
+        <objet type="bloquant"   casex="26" casey="6"/>
+        <objet type="bloquant"   casex="26" casey="5"/>
+        <objet type="bloquant"   casex="26" casey="4"/>
+        <objet type="bloquant"   casex="26" casey="3"/>
+        <objet type="bloquant"   casex="26" casey="2"/>
+        <objet type="bloquant"   casex="26" casey="1"/>
+        <objet type="bloquant"   casex="26" casey="0"/>
+        <objet type="bloquant"   casex="24" casey="2"/>
+        <objet type="bloquant"   casex="24" casey="4"/>
+        <objet type="bloquant"   casex="23" casey="3"/>
+        <objet type="bloquant"   casex="22" casey="3"/>
+        <objet type="bloquant"   casex="22" casey="2"/>
+        <objet type="bloquant"   casex="23" casey="2"/>      
+        <objet type="bloquant"   casex="11" casey="12"/>
+        <objet type="bloquant"   casex="12" casey="13"/>
+        <objet type="bloquant"   casex="13" casey="14"/>
+        <objet type="bloquant"   casex="14" casey="14"/>
+        <objet type="bloquant"   casex="15" casey="14"/>
+        <objet type="bloquant"   casex="16" casey="16"/>
+        <objet type="bloquant"   casex="17" casey="16"/>
+        <objet type="bloquant"   casex="18" casey="17"/>
+        <objet type="bloquant"   casex="18" casey="18"/>
+        <objet type="bloquant"   casex="18" casey="19"/>
+        <objet type="bloquant"   casex="18" casey="20"/>
+        <objet type="bloquant"   casex="18" casey="22"/>
+        <objet type="bloquant"   casex="18" casey="23"/>
+        <objet type="bloquant"   casex="19" casey="24"/>
+        <objet type="bloquant"   casex="19" casey="25"/>
+        <objet type="bloquant"   casex="19" casey="26"/>
+        <objet type="bloquant"   casex="26" casey="26"/>    
+        <objet type="bloquant"   casex="26" casey="25"/>
+        <objet type="bloquant"   casex="26" casey="24"/>
+        <objet type="bloquant"   casex="27" casey="23"/>
+        <objet type="bloquant"   casex="27" casey="21"/>
+        <objet type="bloquant"   casex="27" casey="19"/>
+        <objet type="bloquant"   casex="27" casey="16"/>
+        <objet type="bloquant"   casex="26" casey="16"/>
+        <objet type="bloquant"   casex="28" casey="16"/>
+        <objet type="bloquant"   casex="28" casey="14"/>
+        <objet type="bloquant"   casex="29" casey="14"/>
+        <objet type="bloquant"   casex="29" casey="16"/>      
+        <objet type="bloquant"   casex="31" casey="16"/>
+        <objet type="bloquant"   casex="30" casey="16"/>
+        <objet type="bloquant"   casex="22" casey="27"/>
+        <objet type="bloquant"   casex="22" casey="28"/>
+        <objet type="bloquant"   casex="22" casey="29"/>
+        <objet type="bloquant"   casex="24" casey="27"/>
+        <objet type="bloquant"   casex="24" casey="28"/>
+        <objet type="bloquant"   casex="24" casey="29"/>
+        <objet type="bloquant"   casex="25" casey="27"/>
+        <objet type="bloquant"   casex="21" casey="27"/>
+        <objet type="bloquant"   casex="21" casey="29"/>
+        <objet type="bloquant"   casex="20" casey="29"/>
+        <objet type="bloquant"   casex="18" casey="29"/>
+        <objet type="bloquant"   casex="18" casey="30"/>
+        <objet type="bloquant"   casex="18" casey="31"/>
+        <objet type="bloquant"   casex="25" casey="29"/>
+        <objet type="bloquant"   casex="26" casey="29"/>  
+        <objet type="bloquant"   casex="27" casey="29"/>
+        <objet type="bloquant"   casex="28" casey="29"/>
+        <objet type="bloquant"   casex="29" casey="29"/>
+        <objet type="bloquant"   casex="29" casey="28"/>
+        <objet type="bloquant"   casex="29" casey="27"/>
+        <objet type="bloquant"   casex="28" casey="26"/>
+        <objet type="bloquant"   casex="29" casey="25"/>
+        <objet type="bloquant"   casex="30" casey="25"/>
+        <objet type="bloquant"   casex="31" casey="25"/>  
+        <objet type="bloquant" casex="19" casey="26"/>
+		  <objet type="bloquant" casex="20" casey="26"/>
+		  <objet type="bloquant" casex="21" casey="27"/>
+		  <objet type="bloquant" casex="22" casey="27"/>
+		  <objet type="bloquant" casex="23" casey="27"/>
+		  <objet type="bloquant" casex="24" casey="27"/>
+		  <objet type="bloquant" casex="24" casey="27"/>
+		  <objet type="bloquant" casex="25" casey="27"/>
+		  <objet type="bloquant" casex="26" casey="27"/>
+		  <objet type="bloquant" casex="26" casey="26"/>
+		  <objet type="bloquant" casex="27" casey="26"/>
+		  <objet type="bloquant" casex="28" casey="26"/>
+		  <objet type="bloquant" casex="0" casey="8"/>
+		  <objet type="bloquant" casex="1" casey="8"/>
+		  <objet type="bloquant" casex="2" casey="8"/>
+		  <objet type="bloquant" casex="3" casey="8"/>
+		  <objet type="bloquant" casex="3" casey="6"/>
+		  <objet type="bloquant" casex="2" casey="6"/>
+		  <objet type="bloquant" casex="1" casey="6"/>
+		  <objet type="bloquant" casex="0" casey="6"/>
+		  <objet type="bloquant" casex="9" casey="4"/>
+		  <objet type="bloquant" casex="9" casey="3"/>
+		  <objet type="bloquant" casex="9" casey="2"/>
+		  <objet type="bloquant" casex="10" casey="2"/>
+		  <objet type="bloquant" casex="11" casey="2"/>
+		  <objet type="bloquant" casex="12" casey="2"/>
+		  <objet type="bloquant" casex="13" casey="2"/>
+		  <objet type="bloquant" casex="14" casey="2"/>
+		  <objet type="bloquant" casex="15" casey="2"/>
+		  <objet type="bloquant" casex="16" casey="2"/>
+		  <objet type="bloquant" casex="17" casey="2"/>
+		  <objet type="bloquant" casex="18" casey="2"/>
+		  <objet type="bloquant" casex="19" casey="2"/>
+		  <objet type="bloquant" casex="20" casey="2"/>
+		  <objet type="bloquant" casex="21" casey="2"/>
+		  <objet type="bloquant" casex="21" casey="2"/>
+		  <objet type="bloquant" casex="21" casey="1"/>
+		  <objet type="bloquant" casex="21" casey="0"/>
+        
+        
+		<!-- PLAINE VERTE-->
+        <objet type="teleportation" mapsuivante="plaineverte" casearriveex="38" casearriveey="6" casex="0" casey="7" sensarrivee="gauche"/>
+    </map>
+
+    <map nom="chateau" description="Village de Clairazur" taillecase="32" casedepartx="14" casedeparty="10" sensdepart="bas">
+    
+		<personnage type="ambulant" nomimage="mercenaire1" nom="Gorgoth le Mercenaire" vitesse="4" posx="682" posy="74" tox="927" toy="74" message="Le moine que tu vois là a essayé de manger mon Kebab alors fais attention ! Tiens prends donc ce casque ! je l'ai récupéré sur un homme que l'on avait pendu ! son cou s'est déchiré ! AhAhAh" />
+		<objet type="transmettable" nom="Casque" personnage="Gorgoth le Mercenaire" image="casque" messageapresobjet="Ne mange surtout pas mon kebab où il t'arriverait malheur !"/>
+		<personnage type="ambulant" nomimage="voleur" nom="Voleur" vitesse="4" posx="623" posy="636" tox="840" toy="636" message="Ne me dérange pas, je suis en plein travail. Prends donc ce trèfle et laisse moi tranquille." />
+		<objet type="transmettable" nom="Trefle Porte-Bonheur" personnage="Voleur" image="trefle" messageapresobjet="Je t'ai dit de me laisser tranquille !"/>
+        
+        <objet type="bloquant"   casex="30" casey="16"/>
+        <objet type="bloquant"   casex="30" casey="15"/>
+        <objet type="bloquant"   casex="30" casey="14"/>
+        <objet type="bloquant"   casex="30" casey="13"/>
+        <objet type="bloquant"   casex="30" casey="12"/>
+        <objet type="bloquant"   casex="29" casey="12"/>
+        <objet type="bloquant"   casex="29" casey="10"/>
+        <objet type="bloquant"   casex="21" casey="30"/>
+        <objet type="bloquant"   casex="22" casey="30"/>
+        <objet type="bloquant"   casex="23" casey="30"/>
+        <objet type="bloquant"   casex="24" casey="30"/>
+        <objet type="bloquant"   casex="25" casey="30"/>
+        <objet type="bloquant"   casex="0" casey="0"/>
+        <objet type="bloquant"   casex="1" casey="0"/>
+        <objet type="bloquant"   casex="2" casey="0"/>
+        <objet type="bloquant"   casex="3" casey="0"/>
+        <objet type="bloquant"   casex="4" casey="0"/>
+        <objet type="bloquant"   casex="5" casey="0"/>
+        <objet type="bloquant"   casex="6" casey="0"/>
+        <objet type="bloquant"   casex="7" casey="0"/>
+        <objet type="bloquant"   casex="8" casey="0"/>
+        <objet type="bloquant"   casex="9" casey="0"/>
+        <objet type="bloquant"   casex="10" casey="0"/>
+        <objet type="bloquant"   casex="11" casey="1"/>
+        <objet type="bloquant"   casex="11" casey="0"/>      
+        <objet type="bloquant"   casex="15" casey="1"/>
+        <objet type="bloquant"   casex="15" casey="0"/>
+        <objet type="bloquant"   casex="16" casey="0"/>
+        <objet type="bloquant"   casex="17" casey="0"/>
+        <objet type="bloquant"   casex="18" casey="0"/>
+        <objet type="bloquant"   casex="19" casey="0"/>
+        <objet type="bloquant"   casex="20" casey="0"/>
+        <objet type="bloquant"   casex="21" casey="1"/>
+        <objet type="bloquant"   casex="22" casey="2"/>
+        <objet type="bloquant"   casex="23" casey="2"/>
+        <objet type="bloquant"   casex="24" casey="2"/>
+        <objet type="bloquant"   casex="25" casey="2"/>
+        <objet type="bloquant"   casex="26" casey="2"/>
+        <objet type="bloquant"   casex="27" casey="2"/>
+        <objet type="bloquant"   casex="28" casey="2"/>
+        <objet type="bloquant"   casex="29" casey="1"/>
+        <objet type="bloquant"   casex="30" casey="2"/>    
+        <objet type="bloquant"   casex="30" casey="3"/>
+        <objet type="bloquant"   casex="30" casey="4"/>
+        <objet type="bloquant"   casex="24" casey="5"/>
+        <objet type="bloquant"   casex="25" casey="5"/>
+        <objet type="bloquant"   casex="26" casey="5"/>
+        <objet type="bloquant"   casex="27" casey="5"/>
+        <objet type="bloquant"   casex="28" casey="5"/>
+        <objet type="bloquant"   casex="29" casey="5"/>
+        <objet type="bloquant"   casex="24" casey="6"/>      
+        <objet type="bloquant"   casex="25" casey="6"/>
+        <objet type="bloquant"   casex="26" casey="6"/>
+        <objet type="bloquant"   casex="27" casey="6"/>
+        <objet type="bloquant"   casex="28" casey="6"/>
+        <objet type="bloquant"   casex="29" casey="6"/>
+        <objet type="bloquant"   casex="30" casey="6"/>
+        <objet type="bloquant"   casex="30" casey="7"/>
+        <objet type="bloquant"   casex="30" casey="8"/>
+        <objet type="bloquant"   casex="30" casey="9"/>
+        <objet type="bloquant"   casex="29" casey="11"/>
+        <objet type="bloquant"   casex="28" casey="12"/>
+        <objet type="bloquant"   casex="28" casey="13"/>
+        <objet type="bloquant"   casex="28" casey="14"/>
+        <objet type="bloquant"   casex="28" casey="15"/>      
+        <objet type="bloquant"   casex="28" casey="16"/>
+        <objet type="bloquant"   casex="28" casey="17"/>
+        <objet type="bloquant"   casex="27" casey="18"/>
+        <objet type="bloquant"   casex="26" casey="18"/>
+        <objet type="bloquant"   casex="30" casey="17"/>
+        <objet type="bloquant"   casex="22" casey="18"/>
+        <objet type="bloquant"   casex="21" casey="18"/>
+        <objet type="bloquant"   casex="20" casey="18"/>
+        <objet type="bloquant"   casex="28" casey="18"/>
+        <objet type="bloquant"   casex="20" casey="17"/>      
+        <objet type="bloquant"   casex="20" casey="16"/>
+        <objet type="bloquant"   casex="20" casey="15"/>
+        <objet type="bloquant"   casex="20" casey="14"/>
+        <objet type="bloquant"   casex="20" casey="13"/>
+        <objet type="bloquant"   casex="20" casey="12"/>
+        <objet type="bloquant"   casex="19" casey="10"/>
+        <objet type="bloquant"   casex="24" casey="15"/>      
+        <objet type="bloquant"   casex="30" casey="18"/>
+        <objet type="bloquant"   casex="30" casey="19"/>
+        <objet type="bloquant"   casex="30" casey="20"/>
+        <objet type="bloquant"   casex="30" casey="21"/>
+        <objet type="bloquant"   casex="30" casey="22"/>
+        <objet type="bloquant"   casex="30" casey="23"/>
+        <objet type="bloquant"   casex="29" casey="24"/>
+        <objet type="bloquant"   casex="28" casey="24"/>
+        <objet type="bloquant"   casex="27" casey="24"/>
+        <objet type="bloquant"   casex="26" casey="24"/>
+        <objet type="bloquant"   casex="25" casey="24"/>      
+        <objet type="bloquant"   casex="24" casey="24"/>
+        <objet type="bloquant"   casex="23" casey="24"/>
+        <objet type="bloquant"   casex="22" casey="24"/>
+        <objet type="bloquant"   casex="21" casey="24"/>
+        <objet type="bloquant"   casex="21" casey="25"/>
+        <objet type="bloquant"   casex="21" casey="26"/>
+        <objet type="bloquant"   casex="21" casey="27"/>      
+        <objet type="bloquant"   casex="21" casey="28"/>
+        <objet type="bloquant"   casex="21" casey="29"/>
+        <objet type="bloquant"   casex="21" casey="30"/>
+        <objet type="bloquant"   casex="21" casey="30"/>
+        <objet type="bloquant"   casex="23" casey="30"/>
+        <objet type="bloquant"   casex="24" casey="30"/>
+        <objet type="bloquant"   casex="25" casey="30"/>
+        <objet type="bloquant"   casex="26" casey="29"/>
+        <objet type="bloquant"   casex="27" casey="29"/>
+        <objet type="bloquant"   casex="28" casey="30"/>
+        <objet type="bloquant"   casex="28" casey="31"/>      
+        <objet type="bloquant"   casex="16" casey="31"/>
+        <objet type="bloquant"   casex="15" casey="31"/>
+        <objet type="bloquant"   casex="14" casey="31"/>
+        <objet type="bloquant"   casex="13" casey="31"/>
+        <objet type="bloquant"   casex="12" casey="31"/>
+        <objet type="bloquant"   casex="11" casey="31"/>
+        <objet type="bloquant"   casex="10" casey="31"/>
+        <objet type="bloquant"   casex="9" casey="31"/>
+        <objet type="bloquant"   casex="8" casey="31"/>
+        <objet type="bloquant"   casex="7" casey="31"/>      
+        <objet type="bloquant"   casex="6" casey="31"/>
+        <objet type="bloquant"   casex="5" casey="31"/>
+        <objet type="bloquant"   casex="4" casey="31"/>
+        <objet type="bloquant"   casex="3" casey="31"/>
+        <objet type="bloquant"   casex="2" casey="31"/>
+        <objet type="bloquant"   casex="1" casey="31"/>
+        <objet type="bloquant"   casex="0" casey="31"/>
+        <objet type="bloquant"   casex="0" casey="26"/>
+        <objet type="bloquant"   casex="1" casey="26"/>
+        <objet type="bloquant"   casex="2" casey="26"/>
+        <objet type="bloquant"   casex="3" casey="26"/>
+        <objet type="bloquant"   casex="4" casey="25"/>
+        <objet type="bloquant"   casex="5" casey="25"/>
+        <objet type="bloquant"   casex="6" casey="25"/>
+        <objet type="bloquant"   casex="8" casey="25"/>
+        <objet type="bloquant"   casex="9" casey="25"/>
+        <objet type="bloquant"   casex="10" casey="25"/>
+        <objet type="bloquant"   casex="11" casey="26"/>
+        <objet type="bloquant"   casex="12" casey="26"/>
+        <objet type="bloquant"   casex="13" casey="26"/>      
+        <objet type="bloquant"   casex="13" casey="25"/>
+        <objet type="bloquant"   casex="12" casey="24"/>
+        <objet type="bloquant"   casex="12" casey="23"/>
+        <objet type="bloquant"   casex="12" casey="22"/>
+        <objet type="bloquant"   casex="12" casey="21"/>
+        <objet type="bloquant"   casex="13" casey="21"/>
+        <objet type="bloquant"   casex="13" casey="20"/>
+        <objet type="bloquant"   casex="12" casey="19"/>      
+        <objet type="bloquant"   casex="12" casey="18"/>
+        <objet type="bloquant"   casex="12" casey="17"/>
+        <objet type="bloquant"   casex="13" casey="16"/>
+        <objet type="bloquant"   casex="13" casey="15"/>
+        <objet type="bloquant"   casex="12" casey="14"/>
+        <objet type="bloquant"   casex="12" casey="13"/>
+        <objet type="bloquant"   casex="11" casey="13"/>
+        <objet type="bloquant"   casex="10" casey="13"/>
+        <objet type="bloquant"   casex="9" casey="13"/>
+        <objet type="bloquant"   casex="8" casey="13"/>
+        <objet type="bloquant"   casex="7" casey="13"/>      
+        <objet type="bloquant"   casex="6" casey="13"/>
+        <objet type="bloquant"   casex="5" casey="13"/>
+        <objet type="bloquant"   casex="4" casey="13"/>
+        <objet type="bloquant"   casex="3" casey="13"/>
+        <objet type="bloquant"   casex="2" casey="13"/>
+        <objet type="bloquant"   casex="1" casey="13"/>
+        <objet type="bloquant"   casex="0" casey="13"/>
+        <objet type="bloquant"   casex="0" casey="9"/>
+        <objet type="bloquant"   casex="1" casey="9"/>
+        <objet type="bloquant"   casex="2" casey="8"/>
+        <objet type="bloquant"   casex="3" casey="8"/>
+        <objet type="bloquant"   casex="4" casey="8"/>
+        <objet type="bloquant"   casex="4" casey="6"/>
+        <objet type="bloquant"   casex="4" casey="5"/>
+        <objet type="bloquant"   casex="4" casey="4"/>       
+        <objet type="bloquant"   casex="4" casey="3"/>
+        <objet type="bloquant"   casex="3" casey="3"/>
+        <objet type="bloquant"   casex="2" casey="3"/>
+        <objet type="bloquant"   casex="1" casey="3"/>
+        <objet type="bloquant"   casex="0" casey="3"/>
+        <objet type="bloquant"   casex="13" casey="4"/>
+        <objet type="bloquant"   casex="14" casey="4"/>
+        <objet type="bloquant"   casex="15" casey="4"/>      
+        <objet type="bloquant"   casex="15" casey="5"/>
+        <objet type="bloquant"   casex="15" casey="6"/>
+        <objet type="bloquant"   casex="14" casey="6"/>
+        <objet type="bloquant"   casex="13" casey="6"/>
+        <objet type="bloquant"   casex="12" casey="6"/>
+        <objet type="bloquant"   casex="12" casey="5"/>
+        <objet type="bloquant"   casex="12" casey="4"/>
+        <objet type="bloquant"   casex="13" casey="11"/>
+
+        <!-- PLAINE VERTE-->
+        <objet type="teleportation" mapsuivante="plaineverte" casearriveex="13" casearriveey="29" casex="12" casey="1" sensarrivee="haut"/>
+        <objet type="teleportation" mapsuivante="plaineverte" casearriveex="13" casearriveey="29" casex="13" casey="1" sensarrivee="haut"/>
+        <objet type="teleportation" mapsuivante="plaineverte" casearriveex="13" casearriveey="29" casex="14" casey="1" sensarrivee="haut"/>
+
+		<objet type="teleportationdeblocable" message="Les gardes ne te laisseront rentrer que si tu portes une armure et un casque" listeobjets="Casque,Armure" mapsuivante="interieurchateau" casearriveex="13" casearriveey="23" casex="6" casey="25" sensarrivee="haut"/>
+		<objet type="teleportationdeblocable" message="Les gardes ne te laisseront rentrer que si tu portes une armure et un casque" listeobjets="Casque,Armure" mapsuivante="interieurchateau" casearriveex="13" casearriveey="23" casex="7" casey="25" sensarrivee="haut"/>
+		<objet type="teleportationdeblocable" message="Les gardes ne te laisseront rentrer que si tu portes une armure et un casque" listeobjets="Casque,Armure" mapsuivante="interieurchateau" casearriveex="13" casearriveey="23" casex="8" casey="25" sensarrivee="haut"/>
+
+    </map>
+    <map nom="interieurtente" description="Tente de Hakim" taillecase="32" casedepartx="14" casedeparty="10" sensdepart="bas">
+    
+		<objet type="ramassable" x="133" y="422" image="crystalbleu" nom="Cristal bleu"/>
+		<personnage type="ambulant" nomimage="aventurier" nom="Indiana" vitesse="4" posx="84" posy="639" tox="420" toy="639" message="J'ai entendu dire que tu voulais rentrer dans le caveau ! Un des cristaux te permettant d'y accéder se trouve au fond de la tente, prends-le si tu en as besoin" />
+		<personnage type="fixe" nomimage="fille3" nom="Fille d'indiana" posx="266" posy="366" sens="bas" message="Père a toujours été très généreux ! Bon courage pour votre quête !" />
+        <objet type="bloquant"   casex="0" casey="8"/>
+        <objet type="bloquant"   casex="1" casey="8"/>
+        <objet type="bloquant"   casex="2" casey="8"/>
+        <objet type="bloquant"   casex="3" casey="8"/>
+        <objet type="bloquant"   casex="4" casey="8"/>
+        <objet type="bloquant"   casex="5" casey="8"/>
+        <objet type="bloquant"   casex="6" casey="8"/>
+        <objet type="bloquant"   casex="7" casey="8"/>
+        <objet type="bloquant"   casex="8" casey="8"/>
+        <objet type="bloquant"   casex="9" casey="8"/>
+        <objet type="bloquant"   casex="10" casey="8"/>
+        <objet type="bloquant"   casex="11" casey="8"/>
+        <objet type="bloquant"   casex="12" casey="8"/>
+        <objet type="bloquant"   casex="13" casey="8"/>
+        <objet type="bloquant"   casex="14" casey="8"/>
+        <objet type="bloquant"   casex="14" casey="9"/>
+        <objet type="bloquant"   casex="14" casey="10"/>
+        <objet type="bloquant"   casex="14" casey="12"/>
+        <objet type="bloquant"   casex="14" casey="15"/>
+        <objet type="bloquant"   casex="14" casey="16"/>
+        <objet type="bloquant"   casex="14" casey="17"/>
+        <objet type="bloquant"   casex="14" casey="18"/>
+        <objet type="bloquant"   casex="14" casey="19"/>
+        <objet type="bloquant"   casex="14" casey="23"/>
+        <objet type="bloquant"   casex="13" casey="24"/>
+        <objet type="bloquant"   casex="13" casey="25"/>
+        <objet type="bloquant"   casex="13" casey="26"/>
+        <objet type="bloquant"   casex="13" casey="27"/>
+        <objet type="bloquant"   casex="1" casey="26"/>
+        <objet type="bloquant"   casex="1" casey="27"/>
+        <objet type="bloquant"   casex="2" casey="25"/>
+        <objet type="bloquant"   casex="2" casey="24"/>
+        <objet type="bloquant"   casex="0" casey="21"/>
+        <objet type="bloquant"   casex="0" casey="20"/>
+        <objet type="bloquant"   casex="0" casey="19"/>
+        <objet type="bloquant"   casex="0" casey="17"/>
+        <objet type="bloquant"   casex="0" casey="16"/>
+        <objet type="bloquant"   casex="0" casey="12"/>      
+        <objet type="bloquant"   casex="0" casey="11"/>
+        <objet type="bloquant"   casex="1" casey="9"/>
+        <objet type="bloquant"   casex="2" casey="9"/>
+        <objet type="bloquant"   casex="3" casey="9"/>
+        <objet type="bloquant"   casex="4" casey="9"/>
+        <objet type="bloquant"   casex="5" casey="9"/>
+        <objet type="bloquant"   casex="6" casey="9"/>
+        <objet type="bloquant"   casex="9" casey="9"/>
+        <objet type="bloquant"   casex="10" casey="9"/>
+        <objet type="bloquant"   casex="11" casey="9"/>
+        <objet type="bloquant"   casex="12" casey="9"/>
+        <objet type="bloquant"   casex="13" casey="9"/>
+        <objet type="bloquant"   casex="13" casey="12"/>
+        <objet type="bloquant"   casex="14" casey="12"/>
+        <objet type="bloquant"   casex="10" casey="15"/>      
+        <objet type="bloquant"   casex="11" casey="15"/>
+        <objet type="bloquant"   casex="12" casey="15"/>
+        <objet type="bloquant"   casex="13" casey="15"/>
+        <objet type="bloquant"   casex="14" casey="14"/>
+        <objet type="bloquant"   casex="14" casey="15"/>
+        <objet type="bloquant"   casex="14" casey="17"/>
+        <objet type="bloquant"   casex="14" casey="18"/>
+        <objet type="bloquant"   casex="12" casey="17"/>
+        <objet type="bloquant"   casex="11" casey="17"/>
+        <objet type="bloquant"   casex="10" casey="17"/>
+        <objet type="bloquant"   casex="8" casey="17"/>      
+        <objet type="bloquant"   casex="8" casey="18"/>
+        <objet type="bloquant"   casex="8" casey="19"/>
+        <objet type="bloquant"   casex="9" casey="19"/>
+        <objet type="bloquant"   casex="10" casey="19"/>
+        <objet type="bloquant"   casex="11" casey="19"/>
+        <objet type="bloquant"   casex="12" casey="19"/>
+        <objet type="bloquant"   casex="13" casey="19"/>
+        <objet type="bloquant"   casex="14" casey="19"/>      
+        <objet type="bloquant"   casex="1" casey="19"/>
+        <objet type="bloquant"   casex="2" casey="19"/>
+        <objet type="bloquant"   casex="3" casey="16"/>
+        <objet type="bloquant"   casex="5" casey="11"/>
+        <objet type="bloquant"   casex="6" casey="11"/>
+        <objet type="bloquant"   casex="0" casey="15"/>
+        <objet type="bloquant"   casex="1" casey="15"/>
+        <objet type="bloquant"   casex="2" casey="15"/>
+        <objet type="bloquant"   casex="2" casey="17"/>
+        <objet type="bloquant"   casex="2" casey="18"/>
+        <objet type="bloquant"   casex="1" casey="18"/>
+        <objet type="bloquant"   casex="0" casey="18"/>
+        <objet type="bloquant"   casex="2" casey="12"/>
+        <objet type="bloquant"   casex="1" casey="12"/>
+        <objet type="bloquant"   casex="0" casey="12"/>
+        <objet type="bloquant"   casex="2" casey="23"/>
+        <objet type="bloquant"   casex="1" casey="22"/>
+        <objet type="bloquant"   casex="1" casey="23"/>
+        		
+        <!-- PLAINE VERTE-->
+        <objet type="teleportation" mapsuivante="plaineverte" casearriveex="10" casearriveey="9" casex="2" casey="27" sensarrivee="bas"/>
+        <objet type="teleportation" mapsuivante="plaineverte" casearriveex="10" casearriveey="9" casex="3" casey="27" sensarrivee="bas"/>
+        <objet type="teleportation" mapsuivante="plaineverte" casearriveex="10" casearriveey="9" casex="4" casey="27" sensarrivee="bas"/>
+        <objet type="teleportation" mapsuivante="plaineverte" casearriveex="10" casearriveey="9" casex="5" casey="27" sensarrivee="bas"/>
+        <objet type="teleportation" mapsuivante="plaineverte" casearriveex="10" casearriveey="9" casex="6" casey="27" sensarrivee="bas"/>
+        <objet type="teleportation" mapsuivante="plaineverte" casearriveex="10" casearriveey="9" casex="7" casey="27" sensarrivee="bas"/>
+        <objet type="teleportation" mapsuivante="plaineverte" casearriveex="10" casearriveey="9" casex="8" casey="27" sensarrivee="bas"/>
+        <objet type="teleportation" mapsuivante="plaineverte" casearriveex="10" casearriveey="9" casex="9" casey="27" sensarrivee="bas"/>
+        <objet type="teleportation" mapsuivante="plaineverte" casearriveex="10" casearriveey="9" casex="10" casey="27" sensarrivee="bas"/>
+        <objet type="teleportation" mapsuivante="plaineverte" casearriveex="10" casearriveey="9" casex="11" casey="27" sensarrivee="bas"/>
+        <objet type="teleportation" mapsuivante="plaineverte" casearriveex="10" casearriveey="9" casex="12" casey="27" sensarrivee="bas"/>
+    </map>
+    
+    <map nom="cavemaison" description="Cave de la maison de toinou" taillecase="32" casedepartx="6" casedeparty="1" sensdepart="bas">
+    
+		<objet type="ramassable" x="168" y="197" image="crystalviolet" nom="Cristal violet"/>
+		<personnage type="ambulant" nomimage="magebleu" message="As-tu goûté le dernier Beaujolais ? Il est excellent mais il tâche les vêtements !" vitesse="3" posx="112" posy="127" tox="357" toy="127" nom="Bernardo" />
+	   <objet type="bloquant" casex="3" casey="2"/>
+	  <objet type="bloquant" casex="4" casey="2"/>
+	  <objet type="bloquant" casex="5" casey="2"/>
+	  <objet type="bloquant" casex="8" casey="2"/>
+	  <objet type="bloquant" casex="9" casey="2"/>
+	  <objet type="bloquant" casex="10" casey="3"/>
+	  <objet type="bloquant" casex="10" casey="2"/>
+	  <objet type="bloquant" casex="11" casey="2"/>
+	  <objet type="bloquant" casex="12" casey="2"/>
+	  <objet type="bloquant" casex="13" casey="2"/>
+	  <objet type="bloquant" casex="14" casey="2"/>
+	  <objet type="bloquant" casex="15" casey="2"/>
+	  <objet type="bloquant" casex="16" casey="2"/>
+	  <objet type="bloquant" casex="17" casey="1"/>
+	  <objet type="bloquant" casex="18" casey="2"/>
+	  <objet type="bloquant" casex="19" casey="2"/>
+	  <objet type="bloquant" casex="19" casey="6"/>
+	  <objet type="bloquant" casex="18" casey="6"/>
+	  <objet type="bloquant" casex="18" casey="7"/>
+	  <objet type="bloquant" casex="19" casey="7"/>
+	  <objet type="bloquant" casex="19" casey="9"/>
+	  <objet type="bloquant" casex="18" casey="9"/>
+	  <objet type="bloquant" casex="17" casey="9"/>
+	  <objet type="bloquant" casex="16" casey="9"/>
+	  <objet type="bloquant" casex="14" casey="9"/>
+	  <objet type="bloquant" casex="13" casey="9"/>
+	  <objet type="bloquant" casex="13" casey="7"/>
+	  <objet type="bloquant" casex="14" casey="7"/>
+	  <objet type="bloquant" casex="14" casey="6"/>
+	  <objet type="bloquant" casex="13" casey="6"/>
+	  <objet type="bloquant" casex="14" casey="4"/>
+	  <objet type="bloquant" casex="13" casey="4"/>
+	  <objet type="bloquant" casex="10" casey="9"/>
+	  <objet type="bloquant" casex="9" casey="9"/>
+	  <objet type="bloquant" casex="8" casey="9"/>
+	  <objet type="bloquant" casex="7" casey="7"/>
+	  <objet type="bloquant" casex="7" casey="6"/>
+	  <objet type="bloquant" casex="8" casey="7"/>
+	  <objet type="bloquant" casex="8" casey="6"/>
+	  <objet type="bloquant" casex="9" casey="6"/>
+	  <objet type="bloquant" casex="9" casey="7"/>
+	  <objet type="bloquant" casex="10" casey="7"/>
+	  <objet type="bloquant" casex="10" casey="7"/>
+	  <objet type="bloquant" casex="10" casey="6"/>
+	  <objet type="bloquant" casex="11" casey="6"/>
+	  <objet type="bloquant" casex="11" casey="7"/>
+	  <objet type="bloquant" casex="6" casey="9"/>
+	  <objet type="bloquant" casex="4" casey="9"/>
+	  <objet type="bloquant" casex="3" casey="9"/>
+	  <objet type="bloquant" casex="1" casey="9"/>
+	  <objet type="bloquant" casex="0" casey="9"/>
+	  <objet type="bloquant" casex="0" casey="6"/>
+	  <objet type="bloquant" casex="1" casey="6"/>
+	  <objet type="bloquant" casex="1" casey="4"/>
+	  <objet type="bloquant" casex="0" casey="4"/>
+	  <objet type="bloquant" casex="0" casey="3"/>
+	  <objet type="bloquant" casex="1" casey="3"/>
+	  <objet type="bloquant" casex="1" casey="3"/>
+	  <objet type="bloquant" casex="1" casey="2"/>
+	  <objet type="bloquant" casex="2" casey="2"/>
+	  <objet type="bloquant" casex="5" casey="1"/>
+	  <objet type="bloquant" casex="5" casey="0"/>
+	  <objet type="bloquant" casex="8" casey="0"/>
+	  <objet type="bloquant" casex="8" casey="1"/>
+	  
+		<!-- MAISON MARCHE -->	  
+        <objet type="teleportation" mapsuivante="maisonmarche" casearriveex="16" casearriveey="3" casex="6" casey="1" sensarrivee="haut"/> 
+        <objet type="teleportation" mapsuivante="maisonmarche" casearriveex="16" casearriveey="3" casex="7" casey="1" sensarrivee="haut"/>
+    </map>
+    <map nom="interieurchateau" description="Chateau de Baltazar" taillecase="32" casedepartx="6" casedeparty="3" sensdepart="bas">
+		<personnage type="ambulant" nomimage="roi" nom="Roi" vitesse="4" posx="108" posy="526" tox="353" toy="526" message="J'ai appris que tu voulais te procurer la tronçonneuse magique qui se trouve dans le caveau royal. Voici un des cinq cristaux qui te permettra d'y entrer." />
+		<objet type="transmettable" nom="Cristal noir" personnage="Roi" image="crystalnoir" messageapresobjet="Je t'ai déjà donné le cristal."/>
+		<personnage type="fixe" nomimage="reine" nom="Reine" posx="577" posy="708" sens="gauche" message="Mon mari désire t'aider. Va donc le voir."/>
+
+
+      <objet type="bloquant" casex="0" casey="7"/>
+      <objet type="bloquant" casex="1" casey="7"/>
+      <objet type="bloquant" casex="2" casey="7"/>
+      <objet type="bloquant" casex="3" casey="6"/>
+      <objet type="bloquant" casex="4" casey="6"/>
+      <objet type="bloquant" casex="5" casey="6"/>
+      <objet type="bloquant" casex="6" casey="6"/>
+      <objet type="bloquant" casex="7" casey="6"/>
+      <objet type="bloquant" casex="8" casey="6"/>
+      <objet type="bloquant" casex="9" casey="6"/>
+      <objet type="bloquant" casex="10" casey="6"/>
+      <objet type="bloquant" casex="11" casey="6"/>
+      <objet type="bloquant" casex="12" casey="6"/>
+      <objet type="bloquant" casex="13" casey="6"/>
+      <objet type="bloquant" casex="14" casey="6"/>
+      <objet type="bloquant" casex="15" casey="6"/>
+      <objet type="bloquant" casex="16" casey="6"/>
+      <objet type="bloquant" casex="17" casey="6"/>
+      <objet type="bloquant" casex="18" casey="6"/>
+      <objet type="bloquant" casex="19" casey="6"/>
+      <objet type="bloquant" casex="20" casey="6"/>
+      <objet type="bloquant" casex="21" casey="6"/>
+      <objet type="bloquant" casex="22" casey="6"/>
+      <objet type="bloquant" casex="23" casey="6"/>
+      <objet type="bloquant" casex="24" casey="6"/>
+      <objet type="bloquant" casex="25" casey="6"/>
+      <objet type="bloquant" casex="26" casey="6"/>
+      <objet type="bloquant" casex="27" casey="7"/>
+      <objet type="bloquant" casex="27" casey="8"/>
+      <objet type="bloquant" casex="27" casey="9"/>
+      <objet type="bloquant" casex="28" casey="9"/>
+      <objet type="bloquant" casex="29" casey="9"/>
+      <objet type="bloquant" casex="30" casey="9"/>
+      <objet type="bloquant" casex="31" casey="9"/>
+      <objet type="bloquant" casex="27" casey="11"/>
+      <objet type="bloquant" casex="27" casey="12"/>
+      <objet type="bloquant" casex="27" casey="13"/>
+      <objet type="bloquant" casex="28" casey="13"/>
+      <objet type="bloquant" casex="28" casey="12"/>
+      <objet type="bloquant" casex="31" casey="12"/>
+      <objet type="bloquant" casex="31" casey="13"/>
+      <objet type="bloquant" casex="31" casey="14"/>
+      <objet type="bloquant" casex="30" casey="14"/>
+      <objet type="bloquant" casex="29" casey="14"/>
+      <objet type="bloquant" casex="27" casey="14"/>
+      <objet type="bloquant" casex="27" casey="15"/>
+      <objet type="bloquant" casex="27" casey="16"/>
+      <objet type="bloquant" casex="28" casey="16"/>
+      <objet type="bloquant" casex="29" casey="16"/>
+      <objet type="bloquant" casex="30" casey="16"/>
+      <objet type="bloquant" casex="31" casey="16"/>
+      <objet type="bloquant" casex="30" casey="18"/>
+      <objet type="bloquant" casex="31" casey="18"/>
+      <objet type="bloquant" casex="30" casey="20"/>
+      <objet type="bloquant" casex="31" casey="20"/>
+      <objet type="bloquant" casex="31" casey="21"/>
+      <objet type="bloquant" casex="31" casey="22"/>
+      <objet type="bloquant" casex="31" casey="23"/>
+      <objet type="bloquant" casex="31" casey="24"/>
+      <objet type="bloquant" casex="10" casey="9"/>
+      <objet type="bloquant" casex="11" casey="9"/>
+      <objet type="bloquant" casex="12" casey="9"/>
+      <objet type="bloquant" casex="13" casey="9"/>
+      <objet type="bloquant" casex="14" casey="9"/>
+      <objet type="bloquant" casex="15" casey="9"/>
+      <objet type="bloquant" casex="15" casey="10"/>
+      <objet type="bloquant" casex="15" casey="10"/>
+      <objet type="bloquant" casex="15" casey="11"/>
+      <objet type="bloquant" casex="15" casey="12"/>
+      <objet type="bloquant" casex="14" casey="12"/>
+      <objet type="bloquant" casex="14" casey="12"/>
+      <objet type="bloquant" casex="14" casey="12"/>
+      <objet type="bloquant" casex="14" casey="12"/>
+      <objet type="bloquant" casex="13" casey="12"/>
+      <objet type="bloquant" casex="12" casey="12"/>
+      <objet type="bloquant" casex="11" casey="12"/>
+      <objet type="bloquant" casex="10" casey="12"/>
+      <objet type="bloquant" casex="10" casey="11"/>
+      <objet type="bloquant" casex="10" casey="10"/>
+      <objet type="bloquant" casex="9" casey="12"/>
+      <objet type="bloquant" casex="8" casey="12"/>
+      <objet type="bloquant" casex="16" casey="12"/>
+      <objet type="bloquant" casex="17" casey="12"/>
+      <objet type="bloquant" casex="19" casey="12"/>
+      <objet type="bloquant" casex="22" casey="12"/>
+      <objet type="bloquant" casex="22" casey="15"/>
+      <objet type="bloquant" casex="22" casey="14"/>
+      <objet type="bloquant" casex="20" casey="14"/>
+      <objet type="bloquant" casex="20" casey="13"/>
+      <objet type="bloquant" casex="21" casey="13"/>
+      <objet type="bloquant" casex="21" casey="12"/>
+      <objet type="bloquant" casex="20" casey="12"/>
+      <objet type="bloquant" casex="19" casey="16"/>
+      <objet type="bloquant" casex="6" casey="16"/>
+      <objet type="bloquant" casex="6" casey="15"/>
+      <objet type="bloquant" casex="4" casey="14"/>
+      <objet type="bloquant" casex="5" casey="14"/>
+      <objet type="bloquant" casex="5" casey="14"/>
+      <objet type="bloquant" casex="5" casey="13"/>
+      <objet type="bloquant" casex="4" casey="13"/>
+      <objet type="bloquant" casex="4" casey="12"/>
+      <objet type="bloquant" casex="6" casey="12"/>
+      <objet type="bloquant" casex="3" casey="15"/>
+      <objet type="bloquant" casex="6" casey="19"/>
+      <objet type="bloquant" casex="7" casey="19"/>
+      <objet type="bloquant" casex="7" casey="21"/>
+      <objet type="bloquant" casex="6" casey="24"/>
+      <objet type="bloquant" casex="4" casey="24"/>
+      <objet type="bloquant" casex="4" casey="23"/>
+      <objet type="bloquant" casex="5" casey="23"/>
+      <objet type="bloquant" casex="5" casey="22"/>
+      <objet type="bloquant" casex="4" casey="22"/>
+      <objet type="bloquant" casex="3" casey="24"/>
+      <objet type="bloquant" casex="12" casey="25"/>
+      <objet type="bloquant" casex="14" casey="25"/>
+      <objet type="bloquant" casex="20" casey="24"/>
+      <objet type="bloquant" casex="22" casey="24"/>
+      <objet type="bloquant" casex="21" casey="23"/>
+      <objet type="bloquant" casex="20" casey="23"/>
+      <objet type="bloquant" casex="20" casey="23"/>
+      <objet type="bloquant" casex="21" casey="22"/>
+      <objet type="bloquant" casex="20" casey="22"/>
+      <objet type="bloquant" casex="22" casey="22"/>
+      <objet type="bloquant" casex="18" casey="21"/>
+      <objet type="bloquant" casex="16" casey="20"/>
+      <objet type="bloquant" casex="10" casey="20"/>
+      <objet type="bloquant" casex="10" casey="16"/>
+      <objet type="bloquant" casex="12" casey="18"/>
+      <objet type="bloquant" casex="13" casey="18"/>
+      <objet type="bloquant" casex="14" casey="18"/>
+      <objet type="bloquant" casex="14" casey="17"/>
+      <objet type="bloquant" casex="13" casey="17"/>
+      <objet type="bloquant" casex="12" casey="17"/>
+      <objet type="bloquant" casex="16" casey="16"/>
+      <objet type="bloquant" casex="18" casey="19"/>
+      <objet type="bloquant" casex="19" casey="19"/>
+
+		<!-- CHATEAU -->	  
+        <objet type="teleportation" mapsuivante="chateau" casearriveex="7" casearriveey="26" casex="13" casey="25" sensarrivee="bas"/> 
+    </map>
+</jeu>
+  
